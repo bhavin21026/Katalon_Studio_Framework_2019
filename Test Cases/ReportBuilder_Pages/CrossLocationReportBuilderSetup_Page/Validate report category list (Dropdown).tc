@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Validate report category list (Dropdown)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>67c82093-d57f-4dee-b348-f918142b8f43</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>30b8ce21-b4d7-4bd8-91dd-4a8e9e7cf93a</id>
+      <masked>false</masked>
+      <name>ReportCategoryName</name>
+   </variable>
+</TestCaseEntity>

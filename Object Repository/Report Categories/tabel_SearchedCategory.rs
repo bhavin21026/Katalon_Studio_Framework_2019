@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>tabel_SearchedCategory</name>
+   <tag></tag>
+   <elementGuidId>71198ed6-9af7-412b-8f4b-bceed51939c1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;main-field&quot;]/div/div/div/app-report-category-list/div/table/tbody/tr/td[1]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;main-field&quot;]/div/div/div/app-report-category-list/div/table/tbody[1]/tr/td[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;main-field&quot;]/div/div/div/app-report-category-list/div/table/tbody/tr/td[1]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;main-field&quot;]/div/div/div/app-report-category-list/div/table/tbody/tr/td[1]</value>
+   </webElementProperties>
+</WebElementEntity>

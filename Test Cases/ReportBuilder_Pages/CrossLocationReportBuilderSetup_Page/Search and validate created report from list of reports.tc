@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search and validate created report from list of reports</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b0830166-d314-4c87-a678-ce5c1df54200</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e4aeabcf-6b70-4fd5-854b-66047b989ccd</id>
+      <masked>false</masked>
+      <name>SearchCategory</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2b3d5c09-54cb-4439-80dd-854b3b3086a5</id>
+      <masked>false</masked>
+      <name>SearchReport</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1b8245ab-40d8-467f-826f-98e945fddd04</id>
+      <masked>false</masked>
+      <name>DataGrainOfSearchedReport</name>
+   </variable>
+</TestCaseEntity>

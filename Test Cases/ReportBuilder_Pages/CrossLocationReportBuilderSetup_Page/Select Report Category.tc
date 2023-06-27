@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Select Report Category</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>658c603a-8a64-48e1-b1db-70bbd8fd951e</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.CategoryName</defaultValue>
+      <description></description>
+      <id>2cc7e64d-e6a2-473b-9cdf-35d244ed0942</id>
+      <masked>false</masked>
+      <name>ReportCategory</name>
+   </variable>
+</TestCaseEntity>

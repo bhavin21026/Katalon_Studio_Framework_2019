@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>Monthly Report </name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://devdunkin.sunbeltsol.com/'</initValue>
+      <name>url_Login</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Cafua_Dev@analytix.com'</initValue>
+      <name>username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'!9TgLT8dK3'</initValue>
+      <name>password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Sales/Controllables'</initValue>
+      <name>CategoryName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Monthly Sales'</initValue>
+      <name>ReportName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'31'</initValue>
+      <name>NoOfDays</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'12'</initValue>
+      <name>NoOfMonths</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'13'</initValue>
+      <name>NoOfWeeks</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>01,02,03,04... to 31 (Must be operational calender date and must be ending of month)</description>
+      <initValue>'03'</initValue>
+      <name>StartDate</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>01,02,03,04... to 31 (Must be operational calender date and must be ending of month)</description>
+      <initValue>'09'</initValue>
+      <name>EndDate</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Format Must be &quot;Mar, 2019&quot;, operational calender month starting</description>
+      <initValue>'Nov, 2019'</initValue>
+      <name>MonthYear</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Format Must be &quot;Mar, 2019&quot;, operational calender month ending</description>
+      <initValue>'Nov, 2019'</initValue>
+      <name>EndMonthYear</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Enter operational calender in which start date and end date belongs and must be in given format. Atleast one day and one week should be belong.</description>
+      <initValue>'Nov 24 - Dec 28 '</initValue>
+      <name>OperationalCalender</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Weekly,Monthly,Daily</description>
+      <initValue>'Monthly'</initValue>
+      <name>DataGrain</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Day,Week,Month,EntireRange</description>
+      <initValue>'Month'</initValue>
+      <name>PresentBy</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>First letter must be capital</description>
+      <initValue>'Union Ave'</initValue>
+      <name>PCName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Weekly,Monthly</description>
+      <initValue>'Monthly'</initValue>
+      <name>SalesBudgetBy</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Weekly,Monthly</description>
+      <initValue>'Monthly'</initValue>
+      <name>LaborBudgetBy</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Nov'</initValue>
+      <name>SalesBudgetMonth</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Nov'</initValue>
+      <name>LaborBudgetMonth</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'2019'</initValue>
+      <name>SalesBudgetYear</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'2019'</initValue>
+      <name>LaborBudgetYear</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'10'</initValue>
+      <name>SalesBudget</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'10'</initValue>
+      <name>LaborBudget</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>01,02,03,04... to 31 (Must be operational calender date and must be ending of month)</description>
+      <initValue>'03'</initValue>
+      <name>MultiStartDate</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>01,02,03,04... to 31 (Must be operational calender date and must be ending of month)</description>
+      <initValue>'30'</initValue>
+      <name>MultiEndDate</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Format Must be &quot;Mar, 2019&quot;, operational calender month starting</description>
+      <initValue>'Dec, 2019'</initValue>
+      <name>MultiStartYear</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Format Must be &quot;Mar, 2019&quot;, operational calender month ending</description>
+      <initValue>'Dec, 2019'</initValue>
+      <name>MultiEndYear</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>30</initValue>
+      <name>ExplicitWait</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'icon_control_panel_28x28'</initValue>
+      <name>IconName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1'</initValue>
+      <name>DisplayOrder</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'D:\\Users\\bksangani\\Katalon Studio\\ReportBuilderV1\\ExcelResult'</initValue>
+      <name>Path_CompareWithCalendar</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'CompareCalendarWithReport.xlsx'</initValue>
+      <name>FileName_compareWithCal</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'DailyFromulaResult.xlsx'</initValue>
+      <name>FileName_DailyFormula</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'WeeklyFormulaResult.xlsx'</initValue>
+      <name>FileName_WeeklyFormula</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'MonthlyFormulaResult.xlsx'</initValue>
+      <name>FileName_Monthlyormula</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'EntireRangeResult.xlsx'</initValue>
+      <name>FileName_EntireRange</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Daily Data Grain and Present By Formula Check,Chrome 80.0.3987.149,,,2020-03-19 18:43:43,2020-03-19 18:46:20,2m - 37.268s,FAILED
+,,,,,,,
+Test Cases/CrossLocationReportBuilder_TestCases/TC78_ONE STORE ONE WEEK-MONTH-YEAR-RANGE-To check that tabel values are coming or displayed as per actual formulas,Chrome 80.0.3987.149,,,2020-03-19 18:44:04,2020-03-19 18:44:55,51.376s,FAILED
+"callTestCase(findTestCase(""CrossLocationReportBuilder_TestCases/TC1_Verify successfull login""), [:], CONTINUE_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-03-19 18:44:04,2020-03-19 18:44:06,1.771s,PASSED
+"callTestCase(findTestCase(""ReportBuilder_Pages/Data Entry Form TestCases/Click on Data Entry Form""), [:], CONTINUE_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-03-19 18:44:06,2020-03-19 18:44:06,0.002s,NOT_RUN
+"callTestCase(findTestCase(""ReportBuilder_Pages/Data Entry Form TestCases/Sales Budget/Select Location from dropdown For Sales budget""), [:], CONTINUE_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-03-19 18:44:06,2020-03-19 18:44:06,0.002s,NOT_RUN
+"callTestCase(findTestCase(""ReportBuilder_Pages/Data Entry Form TestCases/Sales Budget/Select Month From Dropdown For Sales budget""), [:], CONTINUE_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-03-19 18:44:06,2020-03-19 18:44:06,0.002s,NOT_RUN
+"callTestCase(findTestCase(""ReportBuilder_Pages/Data Entry Form TestCases/Sales Budget/Select Year from dropdown For Sales budget""), [:], CONTINUE_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-03-19 18:44:06,2020-03-19 18:44:06,0.004s,NOT_RUN
+"callTestCase(findTestCase(""ReportBuilder_Pages/Data Entry Form TestCases/Hit Refresh""), [:], CONTINUE_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-03-19 18:44:06,2020-03-19 18:44:06,0.005s,NOT_RUN
+"SalesBudgets = callTestCase(findTestCase(""ReportBuilder_Pages/Data Entry Form TestCases/Sales Budget/Get And Set Sales Budget""), [:], CONTINUE_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-03-19 18:44:06,2020-03-19 18:44:06,0.001s,NOT_RUN
+"callTestCase(findTestCase(""ReportBuilder_Pages/Data Entry Form TestCases/Left nav Bar/Click On Link Budget""), [:], CONTINUE_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-03-19 18:44:06,2020-03-19 18:44:06,0.001s,NOT_RUN
+"callTestCase(findTestCase(""ReportBuilder_Pages/Data Entry Form TestCases/Left nav Bar/Click on Labor Budget link""), [:], CONTINUE_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-03-19 18:44:06,2020-03-19 18:44:06,0.002s,NOT_RUN
+"callTestCase(findTestCase(""ReportBuilder_Pages/Data Entry Form TestCases/Labor Budget/Select Location from dropdown For Labor Budget""), [:], CONTINUE_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-03-19 18:44:06,2020-03-19 18:44:06,0.001s,NOT_RUN
+"callTestCase(findTestCase(""ReportBuilder_Pages/Data Entry Form TestCases/Labor Budget/Select Month From Dropdown For Labor Budget""), [:], CONTINUE_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-03-19 18:44:06,2020-03-19 18:44:06,0.001s,NOT_RUN
+"callTestCase(findTestCase(""ReportBuilder_Pages/Data Entry Form TestCases/Labor Budget/Select Year from dropdown For Labor Budget""), [:], CONTINUE_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-03-19 18:44:06,2020-03-19 18:44:06,0.001s,NOT_RUN
+"callTestCase(findTestCase(""ReportBuilder_Pages/Data Entry Form TestCases/Hit Refresh""), [:], CONTINUE_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-03-19 18:44:06,2020-03-19 18:44:06,0.001s,NOT_RUN
+"LaborBudgets = callTestCase(findTestCase(""ReportBuilder_Pages/Data Entry Form TestCases/Labor Budget/Get And Set Labor Budget""), [:], CONTINUE_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-03-19 18:44:06,2020-03-19 18:44:06,0.001s,NOT_RUN
+"callTestCase(findTestCase(""ReportBuilder_Pages/CreatedReports/Delete and Create Excels for results""), [:], CONTINUE_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-03-19 18:44:06,2020-03-19 18:44:09,3.136s,PASSED
+"callTestCase(findTestCase(""CrossLocationReportBuilder_TestCases/TC77_Verify Created Report is displaying same as per the set configuration in report setup""), [""ReportName"":ReportName], CONTINUE_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-03-19 18:44:09,2020-03-19 18:44:28,19.341s,PASSED
+"callTestCase(findTestCase(""ReportBuilder_Pages/CreatedReports/Verify Date Picker is displayed as defined Data Grain""), [:], CONTINUE_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-03-19 18:44:28,2020-03-19 18:44:45,16.387s,PASSED
+ValuesForFormula = [:],Chrome 80.0.3987.149,,,2020-03-19 18:44:45,2020-03-19 18:44:45,0.001s,PASSED
+"ValuesForFormula = callTestCase(findTestCase(""ReportBuilder_Pages/CreatedReports/To get all added column values from report- ONE STORE""), [:], CONTINUE_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-03-19 18:44:45,2020-03-19 18:44:53,8.230s,PASSED
+"callTestCase(findTestCase(""ReportBuilder_Pages/CreatedReports/To map and compare all report values coming as per formula""), [""formulaValues"":ValuesForFormula], CONTINUE_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-03-19 18:44:53,2020-03-19 18:44:55,2.194s,FAILED
+Start listener action : afterTestcase,Chrome 80.0.3987.149,,,2020-03-19 18:44:55,2020-03-19 18:44:55,0.001s,PASSED
+,,,,,,,
+Test Cases/CrossLocationReportBuilder_TestCases/TC81_MULTISTORE ONE WEEK-MONTH-YEAR-RANGE-To check that tabel values are coming or displayed as per actual formulas,Chrome 80.0.3987.149,,,2020-03-19 18:44:55,2020-03-19 18:46:20,1m - 24.727s,FAILED
+"callTestCase(findTestCase(""ReportBuilder_Pages/CreatedReports/Verify Date Picker is displayed as defined Data Grain -Multistore""), [:], CONTINUE_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-03-19 18:44:56,2020-03-19 18:46:19,1m - 23.246s,PASSED
+ValuesForFormula = [:],Chrome 80.0.3987.149,,,2020-03-19 18:46:19,2020-03-19 18:46:19,0.000s,PASSED
+"ValuesForFormula = callTestCase(findTestCase(""ReportBuilder_Pages/CreatedReports/To get all added column values from report- MULTISTORES""), [:], CONTINUE_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-03-19 18:46:19,2020-03-19 18:46:19,0.602s,FAILED
+"callTestCase(findTestCase(""ReportBuilder_Pages/CreatedReports/To map and compare all report values coming as per formula - Copy""), [""formulaValues"":ValuesForFormula], CONTINUE_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-03-19 18:46:19,2020-03-19 18:46:20,0.558s,FAILED
+Start listener action : afterTestcase,Chrome 80.0.3987.149,,,2020-03-19 18:46:20,2020-03-19 18:46:20,0.001s,PASSED

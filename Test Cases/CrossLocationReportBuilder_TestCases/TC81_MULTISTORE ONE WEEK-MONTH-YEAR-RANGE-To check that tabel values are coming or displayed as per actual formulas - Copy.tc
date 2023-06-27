@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC81_MULTISTORE ONE WEEK-MONTH-YEAR-RANGE-To check that tabel values are coming or displayed as per actual formulas - Copy</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8c7e50cf-6b1b-4072-99c9-d796cd4fed60</testCaseGuid>
+</TestCaseEntity>

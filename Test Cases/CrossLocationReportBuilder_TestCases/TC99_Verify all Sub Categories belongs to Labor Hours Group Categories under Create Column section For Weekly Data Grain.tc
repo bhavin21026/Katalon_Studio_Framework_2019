@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC99_Verify all Sub Categories belongs to Labor Hours Group Categories under Create Column section For Weekly Data Grain</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2c088640-5477-4a96-aea4-d0519c0757f0</testCaseGuid>
+</TestCaseEntity>

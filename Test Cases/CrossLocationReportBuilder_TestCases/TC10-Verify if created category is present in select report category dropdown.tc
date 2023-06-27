@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC10-Verify if created category is present in select report category dropdown</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c3b0685e-f33c-416c-ba9e-da0dfd702d8c</testCaseGuid>
+</TestCaseEntity>

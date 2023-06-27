@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Give Report Category Display Order</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>76e21e50-1c6e-49e7-af32-e6f0301b9c3f</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e4352a6a-5381-4bc6-949e-95a1067acf60</id>
+      <masked>false</masked>
+      <name>DisplayOrder</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0795cecf-f663-48d4-80b0-9d7bdfa77b63</id>
+      <masked>false</masked>
+      <name>IconName</name>
+   </variable>
+</TestCaseEntity>

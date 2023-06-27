@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Weekly Report End to End Suit,Chrome 80.0.3987.149,,,2020-03-29 00:53:39,2020-03-29 00:56:42,3m - 2.886s,PASSED
+,,,,,,,
+Test Cases/CrossLocationReportBuilder_TestCases/TC79_Create Weekly Report with valid details and compare report values with calender for specific time period,Chrome 80.0.3987.149,,,2020-03-29 00:53:56,2020-03-29 00:56:42,2m - 46.554s,PASSED
+Start listener action : afterTestcase,Chrome 80.0.3987.149,,,2020-03-29 00:56:42,2020-03-29 00:56:42,0.000s,PASSED

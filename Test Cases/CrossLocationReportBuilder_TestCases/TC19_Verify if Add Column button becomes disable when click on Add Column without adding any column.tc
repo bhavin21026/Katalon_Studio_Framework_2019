@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC19_Verify if Add Column button becomes disable when click on Add Column without adding any column</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>11dd6f4f-4e1f-4e71-af83-7b20e006cf02</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC79_Create Weekly Report with valid details and compare report values with calender for specific time period</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>663272c6-8bdc-4359-9652-b0dbf1e716fb</testCaseGuid>
+</TestCaseEntity>

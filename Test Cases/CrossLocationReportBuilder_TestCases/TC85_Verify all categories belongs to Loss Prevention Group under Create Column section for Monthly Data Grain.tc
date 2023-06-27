@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC85_Verify all categories belongs to Loss Prevention Group under Create Column section for Monthly Data Grain</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e73603d4-bd96-4ff5-be60-74aa41800b8e</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC8_Create Daily Report with valid details and compare report values with calender for specific time period</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e2ca0037-6663-4b76-92d1-205a7ea9fe3e</testCaseGuid>
+</TestCaseEntity>

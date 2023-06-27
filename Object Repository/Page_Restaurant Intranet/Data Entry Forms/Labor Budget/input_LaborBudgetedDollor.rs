@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_LaborBudgetedDollor</name>
+   <tag></tag>
+   <elementGuidId>62a527ff-9120-4eac-a221-8a334f195713</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;main-field&quot;]/div/div/div[2]/div[1]/table/tbody/tr/td[4]/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;main-field&quot;]/div/div/div[2]/div[1]/table/tbody/tr/td[4]/input</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC13_Verify Create Report functionality with keeping Select Report category field blank</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>83d78cdb-9f48-4a17-bd8a-981418844a25</testCaseGuid>
+   <variable>
+      <defaultValue>'BKS Report1'</defaultValue>
+      <description></description>
+      <id>c3f9fa64-faee-4f85-9ab0-e209cc8edc61</id>
+      <masked>false</masked>
+      <name>NameOfReport</name>
+   </variable>
+   <variable>
+      <defaultValue>'31'</defaultValue>
+      <description></description>
+      <id>589f932d-464e-41a0-a4f4-ab885586af34</id>
+      <masked>false</masked>
+      <name>NoOfDays</name>
+   </variable>
+</TestCaseEntity>

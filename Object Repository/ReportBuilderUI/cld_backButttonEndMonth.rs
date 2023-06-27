@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>cld_backButttonEndMonth</name>
+   <tag></tag>
+   <elementGuidId>4660404e-3db0-4ae8-8aee-2010b6b3d844</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//button[contains(@class,'dp-calendar-nav-left')])[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//button[contains(@class,'dp-calendar-nav-left')])[2]</value>
+   </webElementProperties>
+</WebElementEntity>

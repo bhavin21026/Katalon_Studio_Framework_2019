@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Grain By Weekly with Present By Week</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>528fd2d0-b028-43c6-ba95-d64400e4a324</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a22face8-7fac-4007-a8f2-84576c3e7f8c</id>
+      <masked>false</masked>
+      <name>NoOfWeeks</name>
+   </variable>
+</TestCaseEntity>

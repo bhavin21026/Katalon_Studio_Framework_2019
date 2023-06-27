@@ -1,0 +1,320 @@
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import com.kms.katalon.core.annotation.Keyword as Keyword
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.WebElement as WebElement
+import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.By as By
+import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory as MobileDriverFactory
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import com.kms.katalon.core.testobject.RequestObject as RequestObject
+import com.kms.katalon.core.testobject.ResponseObject as ResponseObject
+import com.kms.katalon.core.testobject.ConditionType as ConditionType
+import com.kms.katalon.core.testobject.TestObjectProperty as TestObjectProperty
+import com.kms.katalon.core.mobile.helper.MobileElementCommonHelper as MobileElementCommonHelper
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+import com.kms.katalon.core.webui.exception.WebElementNotFoundException as WebElementNotFoundException
+import org.openqa.selenium.JavascriptExecutor as JavascriptExecutorws
+import reportbuildercustom.RB_Keywords as RB_Keywords
+
+String DataGrain = GlobalVariable.DataGrain
+
+String PresentBy = GlobalVariable.PresentBy
+
+String SalesBudgetActualValue
+String LaborBudgetActualValue
+
+def CreatedReportValues = [:]
+
+String Store='All';
+
+
+
+CreatedReportValues = formulaValues
+SalesBudgetActualValue=GlobalVariable.SalesBudget
+LaborBudgetActualValue=GlobalVariable.LaborBudget
+
+
+double dblSalesBudget = Double.parseDouble(SalesBudgetActualValue);
+//double dblLaborBudget = Double.parseDouble(LaborBudgetActualValue);
+
+
+
+
+//Grab NetSales Values
+double NetSalesTY = CreatedReportValues.get('Net Sales $')
+
+double NetSalesLY = CreatedReportValues.get('Net Sales LY $')
+
+//Grab GuestCount Values
+double GuestCountTY = CreatedReportValues.get('Guest Count')
+
+double GuestCountLY = CreatedReportValues.get('Guest LY Count')
+
+
+//Grab Loss Prevention Column's value
+
+double ItemDeletionDollor=CreatedReportValues.get('Item Deletion $')
+double ItemDeletionCount=CreatedReportValues.get('Item Deletion Count')
+
+double CancelledTransactionDollor=CreatedReportValues.get('Cancelled Transaction $')
+double CancelledTransactionCount=CreatedReportValues.get('Cancelled Transaction Count')
+
+double NoSalesTransactionCount=CreatedReportValues.get('No Sale Transaction Count')
+
+double ItemDeletionBeforeTotalDollor=CreatedReportValues.get('Item Deletion Before Total $')
+double ItemDeletionAfterTotalDollor=CreatedReportValues.get('Item Deletion After Total $')
+double ItemDeletionBeforeTotalCount=CreatedReportValues.get('Item Deletion Before Total Count')
+double ItemDeletionAfterTotalCount=CreatedReportValues.get('Item Deletion After Total Count')
+
+double RefundDollor=CreatedReportValues.get('Refunds $')
+double VoidTransactionDollor=CreatedReportValues.get('Void Transactions $')
+double CashovershortDollor=CreatedReportValues.get('Cash over short $')
+
+double ItemDeletionPercentOfSalesTY=CreatedReportValues.get('Item Deletion %, of Sales TY')
+double ItemDeletionCountPercentofTotalTransactionsTY=CreatedReportValues.get('Item Deletion Count, % of Total Transactions TY')
+
+double CancelledTransactionPercentOfSalesTY=CreatedReportValues.get('Cancelled Transaction, % of Sales TY')
+double CancelledTransactionPercentofTotalTransactionsTY=CreatedReportValues.get('Cancelled Transaction Count, % of Total Transactions TY')
+
+
+double ItemDeletionBeforeTotalPercentOfSalesTY=CreatedReportValues.get('Item Deletion Before Total, % of Sales TY')
+double ItemDeletionAfterTotalPercentOfSalesTY=CreatedReportValues.get('Item Deletion After Total, % of Sales TY')
+double ItemDeletionBeforeTotalCountPercentOfSalesTY=CreatedReportValues.get('Item Deletion Before Total Count, % of Total Transactions TY')
+double ItemDeletionAfterTotalCountPercentOfSalesTY=CreatedReportValues.get('Item Deletion After Total Count, % of Total Transactions TY')
+
+double CashOverShortPercentOfSalesTY=CreatedReportValues.get('Cash Over/Short , % of Sales TY')
+double RefundPercentOfSalesTY=CreatedReportValues.get('Refund, % of Sales TY')
+double VoidTransactionPercentOfSalesTY=CreatedReportValues.get('Void Transactions, % of Sales TY')
+
+double ItemDeletionLYDollor=CreatedReportValues.get('Item Deletion LY $')
+double ItemDeletionvsLYDollor=CreatedReportValues.get('Item Deletion vs LY $')
+double ItemDeletionLYCount=CreatedReportValues.get('Item Deletion LY Count')
+double ItemDeletionvsLYCount=CreatedReportValues.get('Item Deletion vs LY Count')
+
+double CancelledTransactionLYDollor=CreatedReportValues.get('Cancelled Transaction LY $')
+double CancelledTransactionvsLYDollor=CreatedReportValues.get('Cancelled Transaction vs LY $')
+double CancelledTransactionLYCount=CreatedReportValues.get('Cancelled Transaction LY Count')
+double CancelledTransactionvsLYCount=CreatedReportValues.get('Cancelled Transaction vs LY Count')
+
+double NoSalesTransactionLYCount=CreatedReportValues.get('No Sale Transaction LY Count')
+double NoSalesTransactionvsLYCount=CreatedReportValues.get('No Sale Transaction vs LY Count')
+
+double ItemDeletionBeforeTotalDollorLY=CreatedReportValues.get('Item Deletion Before Total LY $')
+double ItemDeletionBeforeTotalDollorvsLY=CreatedReportValues.get('Item Deletion Before Total vs LY $')
+double ItemDeletionBeforeTotalCountLY=CreatedReportValues.get('Item Deletion Before Total LY Count')
+double ItemDeletionBeforeTotalCountvsLY=CreatedReportValues.get('Item Deletion Before Total vs LY Count')
+
+double ItemDeletionAfterTotalDollorLY=CreatedReportValues.get('Item Deletion After Total LY $')
+double ItemDeletionAfterTotalDollorvsLY=CreatedReportValues.get('Item Deletion After Total vs LY $')
+double ItemDeletionAfterTotalCountLY=CreatedReportValues.get('Item Deletion After Total LY Count')
+double ItemDeletionAfterTotalCountvsLY=CreatedReportValues.get('Item Deletion After Total vs LY Count')
+
+double RefundDollorLY=CreatedReportValues.get('Refunds LY $')
+double RefundDollorvsLY=CreatedReportValues.get('Refunds vs LY $')
+double VoidTransactionDollorLY=CreatedReportValues.get('Void Transactions LY $')
+double VoidTransactionvsLYDollor=CreatedReportValues.get('Void Transactions vs LY $')
+
+double CashovershortDollorLY=CreatedReportValues.get('Cash over short LY $')
+double CashovershortvsLYDollor=CreatedReportValues.get('Cash over vs short LY $')
+
+double ItemDeletionPercentOfSalesLY=CreatedReportValues.get('Item Deletion %, of Sales LY')
+double ItemDeletionCountPercentofTotalTransactionsLY=CreatedReportValues.get('Item Deletion Count, % of Total Transactions LY')
+double CancelledTransactionPercentOfSalesLY=CreatedReportValues.get('Cancelled Transaction, % of Sales LY')
+double CancelledTransactionPercentofTotalTransactionsLY=CreatedReportValues.get('Cancelled Transaction Count, % of Total Transactions LY')
+
+double ItemDeletionBeforeTotalPercentOfSalesLY=CreatedReportValues.get('Item Deletion Before Total, % of Sales LY')
+double ItemDeletionAfterTotalPercentOfSalesLY=CreatedReportValues.get('Item Deletion After Total, % of Sales LY')
+double ItemDeletionBeforeTotalCountPercentOfSalesLY=CreatedReportValues.get('Item Deletion Before Total Count, % of Total Transactions LY')
+double ItemDeletionAfterTotalCountPercentOfSalesLY=CreatedReportValues.get('Item Deletion After Total Count, % of Total Transactions LY')
+
+double CashOverShortPercentOfSalesLY=CreatedReportValues.get('Cash Over/Short , % of Sales LY')
+double RefundPercentOfSalesLY=CreatedReportValues.get('Refund, % of Sales LY')
+double VoidTransactionPercentOfSalesLY=CreatedReportValues.get('Void Transactions, % of Sales LY')
+
+double ItemDeletionPercentofSalesTYvsLYPP=CreatedReportValues.get('Item Deletion %, of Sales TY vs LY PP')
+double ItemDeletionCountPercentofTotalTransactionTYvsLYPP=CreatedReportValues.get('Item Deletion Count, % of Total Transactions TY vs LY PP')
+double CancelledTransactionPercentofSalesTYvsLYPP=CreatedReportValues.get('Cancelled Transaction, % of Sales TY vs LY PP')
+double CancelledTransactionPercentofTotalTransactionTYvsLYPP=CreatedReportValues.get('Cancelled Transaction Count, % of Total Transactions TY vs LY PP')
+double ItemDeletionBeforeTotalPercentofSalesTYvsLYPP=CreatedReportValues.get('Item Deletion Before Total, % of Sales TY vs LY PP')
+double ItemDeletionAfterTotalPercentofSalesTYvsLYPP=CreatedReportValues.get('Item Deletion After Total, % of Sales TY vs LY PP')
+double ItemDeletionBeforeTotalCountPercentofTotalTransactionTYvsLYPP=CreatedReportValues.get('Item Deletion Before Total Count, % of Total Transactions TY vs LY PP')
+double ItemDeletionAfterTotalCountPercentofTotalTransactionTYvsLYPP=CreatedReportValues.get('Item Deletion After Total Count, % of Total Transactions TY vs LY PP')
+double CashOverShortPercentofSalesTYvsLYPP=CreatedReportValues.get('Cash Over/Short , % of Sales TY vs LY PP')
+double RefundPercentofSalesTYvsLYPP=CreatedReportValues.get('Refund, % of Sales TY vs LY PP')
+double VoidTransactionPercentofSalesTYvsLYPP=CreatedReportValues.get('Void Transactions, % of Sales TY vs LY PP')
+
+
+
+
+//Calculation of Loss Prevention Formulas TY
+
+
+
+double CashOverShortPercentOfSalesTYCalculated=CustomKeywords.'reportbuildercustom.LossPrevention_Formulas.calculate_CashOverShortPercentofSalesTY'(CashovershortDollor, NetSalesTY)
+double ItemDeletionPercentOfSalesTYCalculated=CustomKeywords.'reportbuildercustom.LossPrevention_Formulas.calculate_ItemDeletionPercentOfSalesTY'(ItemDeletionDollor, NetSalesTY)
+double ItemDeletionBeforeTotalPercentOfSalesTYCalculated=CustomKeywords.'reportbuildercustom.LossPrevention_Formulas.calculate_ItemDeletionBeforePercentOfSalesTY'(ItemDeletionBeforeTotalDollor, NetSalesTY)
+double ItemDeletionAfterTotalPercentOfSalesTYCalculated=CustomKeywords.'reportbuildercustom.LossPrevention_Formulas.calculate_ItemDeletionAfterPercentOfSalesTY'(ItemDeletionAfterTotalDollor, NetSalesTY)
+double RefundPercentOfSalesTYCalculated=CustomKeywords.'reportbuildercustom.LossPrevention_Formulas.calculate_RefundPercentOfSalesTY'(RefundDollor, NetSalesTY)
+double CancelledTransactionPercentOfSalesTYCalculated=CustomKeywords.'reportbuildercustom.LossPrevention_Formulas.calculate_CancelledTransactionPercentOfSalesTY'(CancelledTransactionDollor, NetSalesTY)
+//double VoidTransactionPercentOfSalesTYCalculated=CustomKeywords.'reportbuildercustom.LossPrevention_Formulas.calculate_VoidTransactionPercentOfSalesTY'(VoidTransactionDollor, NetSalesTY)
+
+//Calculation of Loss Prevention Formulas LY
+
+double CashOverShortPercentOfSalesLYCalculated=CustomKeywords.'reportbuildercustom.LossPrevention_Formulas.calculate_CashOverShortPercentofSalesLY'(CashovershortDollorLY, NetSalesLY)
+double ItemDeletionPercentOfSalesLYCalculated=CustomKeywords.'reportbuildercustom.LossPrevention_Formulas.calculate_ItemDeletionPercentOfSalesLY'(ItemDeletionLYDollor, NetSalesLY)
+double ItemDeletionBeforeTotalPercentOfSalesLYCalculated=CustomKeywords.'reportbuildercustom.LossPrevention_Formulas.calculate_ItemDeletionBeforePercentOfSalesLY'(ItemDeletionBeforeTotalDollorLY, NetSalesLY)
+double ItemDeletionAfterTotalPercentOfSalesLYCalculated=CustomKeywords.'reportbuildercustom.LossPrevention_Formulas.calculate_ItemDeletionAfterPercentOfSalesLY'(ItemDeletionAfterTotalDollorLY, NetSalesLY)
+double RefundPercentOfSalesLYCalculated=CustomKeywords.'reportbuildercustom.LossPrevention_Formulas.calculate_RefundPercentOfSalesLY'(RefundDollorLY, NetSalesTY)
+double CancelledTransactionPercentOfSalesLYCalculated=CustomKeywords.'reportbuildercustom.LossPrevention_Formulas.calculate_CancelledTransactionPercentOfSalesLY'(CancelledTransactionLYDollor, NetSalesLY)
+//double VoidTransactionPercentOfSalesLYCalculated=CustomKeywords.'reportbuildercustom.LossPrevention_Formulas.calculate_VoidTransactionPercentOfSalesLY'(VoidTransactionDollorLY, NetSalesLY)
+
+
+//Total Transaction TY
+
+double ItemDeletionCountPercentofTotalTransactionsTYCalculated=CustomKeywords.'reportbuildercustom.LossPrevention_Formulas.calculate_ItemDeletionCountPercentofTotalTransactionsTY'(ItemDeletionCount, GuestCountTY)
+double ItemDeletionBeforeTotalCountPercentOfSalesTYCalculated=CustomKeywords.'reportbuildercustom.LossPrevention_Formulas.calculate_ItemDeletionBeforeTotalCountPercentofTotalTransactionsTY'(ItemDeletionBeforeTotalCount, GuestCountTY)
+double ItemDeletionAfterTotalCountPercentOfSalesTYCalculated=CustomKeywords.'reportbuildercustom.LossPrevention_Formulas.calculate_ItemDeletionAfterTotalCountPercentofTotalTransactionsTY'(ItemDeletionAfterTotalCount, GuestCountTY)
+double CancelledTransactionPercentofTotalTransactionsTYCalculated=CustomKeywords.'reportbuildercustom.LossPrevention_Formulas.calculate_CancelledTransCountPercentofTotalTransactionsTY'(CancelledTransactionCount, GuestCountTY)
+//double VoidTransactionPercentofTotalTransactionsLYCalculated=CustomKeywords.'reportbuildercustom.LossPrevention_Formulas.calculate_VoidTransactionCountPercentofTotalTransactionsTY'(CancelledTransactionCount, GuestCountTY)
+
+//Total Transaction LY
+
+double ItemDeletionCountPercentofTotalTransactionsLYCalculated=CustomKeywords.'reportbuildercustom.LossPrevention_Formulas.calculate_ItemDeletionCountPercentofTotalTransactionsLY'(ItemDeletionLYCount, GuestCountLY)
+double ItemDeletionBeforeTotalCountPercentOfSalesLYCalculated=CustomKeywords.'reportbuildercustom.LossPrevention_Formulas.calculate_ItemDeletionBeforeTotalCountPercentofTotalTransactionsLY'(ItemDeletionBeforeTotalCountLY, GuestCountLY)
+double ItemDeletionAfterTotalCountPercentOfSalesLYCalculated=CustomKeywords.'reportbuildercustom.LossPrevention_Formulas.calculate_ItemDeletionAfterTotalCountPercentofTotalTransactionsLY'(ItemDeletionAfterTotalCountLY, GuestCountLY)
+double CancelledTransactionPercentofTotalTransactionsLYCalculated=CustomKeywords.'reportbuildercustom.LossPrevention_Formulas.calculate_CancelledTransCountPercentofTotalTransactionsLY'(CancelledTransactionLYCount, GuestCountLY)
+//double VoidTransactionPercentofTotalTransactionsLYCalculated=CustomKeywords.'reportbuildercustom.LossPrevention_Formulas.calculate_VoidTransactionCountPercentofTotalTransactionsLY'(CancelledTransactionCount, GuestCountLY)
+
+//Column Name ( TY vs LY ) dollor**************************************
+
+
+double CashovershortvsLYDollorCalculated=CustomKeywords.'reportbuildercustom.LossPrevention_Formulas.calculate_CashOverShortDollorTYvsLY'(CashovershortDollor, CashovershortDollorLY)
+double ItemDeletionvsLYDollorCalculated=CustomKeywords.'reportbuildercustom.LossPrevention_Formulas.calculate_ItemDeletionBeforeTotalTYvsLY'(ItemDeletionDollor, ItemDeletionLYDollor)
+double ItemDeletionBeforeTotalDollorvsLYCalculate=CustomKeywords.'reportbuildercustom.LossPrevention_Formulas.calculate_ItemDeletionBeforeTotalTYvsLY'(ItemDeletionBeforeTotalDollor, ItemDeletionBeforeTotalDollorLY)
+double ItemDeletionAfterTotalDollorvsLYCalculated=CustomKeywords.'reportbuildercustom.LossPrevention_Formulas.calculate_ItemDeletionAfterTotalTYvsLY'(ItemDeletionAfterTotalDollor, ItemDeletionAfterTotalDollorLY)
+double RefundDollorvsLYCalculated=CustomKeywords.'reportbuildercustom.LossPrevention_Formulas.calculate_RefundTYvsLY'(RefundDollor, RefundDollorLY)
+double CancelledTransactionvsLYDollorCalculated=CustomKeywords.'reportbuildercustom.LossPrevention_Formulas.calculate_CancelledTransactionTYvsLY'(CancelledTransactionDollor, CancelledTransactionLYDollor)
+//double VoidTransactionvsLYDollorCalculated=CustomKeywords.'reportbuildercustom.LossPrevention_Formulas.calculate_VoidTransactionTYvsLY'(VoidTransactionDollor, VoidTransactionDollorLY)
+
+
+
+//Column Name ( TY vs LY ) Percent PP*************************************
+
+double CashOverShortPercentofSalesTYvsLYPPCalculated=CustomKeywords.'reportbuildercustom.LossPrevention_Formulas.calculate_CashOverShortPercentOfSalesTYvsLY_PP'(CashOverShortPercentOfSalesTY, CashOverShortPercentOfSalesLY)
+double ItemDeletionPercentofSalesTYvsLYPPCalculated=CustomKeywords.'reportbuildercustom.LossPrevention_Formulas.calculate_ItemDeletionPercentOfSalesTYvsLY_PP'(ItemDeletionPercentOfSalesTY, ItemDeletionPercentOfSalesLY)
+double ItemDeletionBeforeTotalPercentofSalesTYvsLYPPCalculated=CustomKeywords.'reportbuildercustom.LossPrevention_Formulas.calculate_ItemDeletionBeforeTotalPercentOfSalesTYvsLY_PP'(ItemDeletionBeforeTotalPercentOfSalesTY, ItemDeletionBeforeTotalPercentOfSalesLY)
+double ItemDeletionAfterTotalPercentofSalesTYvsLYPPCalculated=CustomKeywords.'reportbuildercustom.LossPrevention_Formulas.calculate_ItemDeletionAfterTotalPercentOfSalesTYvsLY_PP'(ItemDeletionAfterTotalPercentOfSalesTY, ItemDeletionAfterTotalPercentOfSalesLY)
+double RefundPercentofSalesTYvsLYPPCalculated=CustomKeywords.'reportbuildercustom.LossPrevention_Formulas.calculate_RefundPercentOfSalesTYvsLY_PP'(RefundPercentOfSalesTY, RefundPercentOfSalesLY)
+double CancelledTransactionPercentofSalesTYvsLYPPCalculated=CustomKeywords.'reportbuildercustom.LossPrevention_Formulas.calculate_CancelledTransactionPercentOfSalesTYvsLY_PP'(CancelledTransactionPercentOfSalesTY, CancelledTransactionPercentOfSalesLY)
+//double VoidTransactionPercentofSalesTYvsLYPPCalculated=CustomKeywords.'reportbuildercustom.LossPrevention_Formulas.calculate_VoidTransactionPercentOfSalesTYvsLY_PP'(VoidTransactionPercentOfSalesTY, VoidTransactionPercentOfSalesLY)
+
+
+//Column Name ( TY vs LY ) Count*************************************
+
+
+double ItemDeletionvsLYCountCalculated=CustomKeywords.'reportbuildercustom.LossPrevention_Formulas.calculate_ItemDeletionCountTyvsLY'(ItemDeletionCount, ItemDeletionLYCount)
+double CancelledTransactionvsLYCountCalculated=CustomKeywords.'reportbuildercustom.LossPrevention_Formulas.calculate_CancelledTransactionCountTyvsLY'(CancelledTransactionCount, CancelledTransactionLYCount)
+double ItemDeletionBeforeTotalCountvsLYCalculated=CustomKeywords.'reportbuildercustom.LossPrevention_Formulas.calculate_ItemDeletionBeforeTotalCountTyvsLY'(ItemDeletionBeforeTotalCount, ItemDeletionBeforeTotalCountLY)
+double ItemDeletionAfterTotalCountvsLYCalculated=CustomKeywords.'reportbuildercustom.LossPrevention_Formulas.calculate_ItemDeletionAfterTotalCountTyvsLY'(ItemDeletionAfterTotalCount, ItemDeletionAfterTotalCountLY)
+//double VoidTransactionCountTyvsLYCalculated=CustomKeywords.'reportbuildercustom.LossPrevention_Formulas.calculate_VoidTransactionCountTyvsLY'(CancelledTransactionCount, CancelledTransactionCount)
+
+
+//Column Name ( TY vs LY ) Percent PP Total Transaction*************************************
+
+
+double ItemDeletionCountPercentofTotalTransactionTYvsLYPPCalculated=CustomKeywords.'reportbuildercustom.LossPrevention_Formulas.calculate_ItemDeletionCountPercentOftotalTransactionsTYvsLY_PP'(ItemDeletionCountPercentofTotalTransactionsTY, ItemDeletionCountPercentofTotalTransactionsLY)
+double CancelledTransactionPercentofTotalTransactionTYvsLYPPCalculated=CustomKeywords.'reportbuildercustom.LossPrevention_Formulas.calculate_CancelledTransactionCountPercentOftotalTransactionsTYvsLY_PP'(CancelledTransactionPercentofTotalTransactionsTY, CancelledTransactionPercentofTotalTransactionsLY)
+double ItemDeletionBeforeTotalCountPercentofTotalTransactionTYvsLYPPCalculated=CustomKeywords.'reportbuildercustom.LossPrevention_Formulas.calculate_ItemDeletionBeforeTotalCountPercentOftotalTransactionsTYvsLY_PP'(ItemDeletionBeforeTotalCountPercentOfSalesTY, ItemDeletionBeforeTotalCountPercentOfSalesLY)
+double ItemDeletionAfterTotalCountPercentofTotalTransactionTYvsLYPPCalculated=CustomKeywords.'reportbuildercustom.LossPrevention_Formulas.calculate_ItemDeletionAfterTotalCountPercentOftotalTransactionsTYvsLY_PP'(ItemDeletionAfterTotalCountPercentOfSalesTY, ItemDeletionAfterTotalCountPercentOfSalesLY)
+//double VoidTransactionCountPercentofTotalTransactionTYvsLYPPCalculated=CustomKeywords.'reportbuildercustom.LossPrevention_Formulas.calculate_VoidTransactionCountPercentOftotalTransactionsTYvsLY_PP'(CancelledTransactionPercentofTotalTransactionsTYCalculated, CancelledTransactionPercentofTotalTransactionsLYCalculated)
+
+
+//COMPARISION STARTS
+
+
+
+//Comparision of Loss Prevention Formulas TY
+
+
+
+CustomKeywords.'compareColumnsValues.LossPreventionValuesCompare.toVerifyCashOverShortPercentofSalesTYValues'(CashOverShortPercentOfSalesTY, CashOverShortPercentOfSalesTYCalculated, Store)
+CustomKeywords.'compareColumnsValues.LossPreventionValuesCompare.toVerifyItemDeletionPercentofSalesTYValues'(ItemDeletionPercentOfSalesTY, ItemDeletionPercentOfSalesTYCalculated, Store)
+CustomKeywords.'compareColumnsValues.LossPreventionValuesCompare.toVerifyItemDeletionBeforePercentofSalesTYValues'(ItemDeletionBeforeTotalPercentOfSalesTY, ItemDeletionBeforeTotalPercentOfSalesTYCalculated, Store)
+CustomKeywords.'compareColumnsValues.LossPreventionValuesCompare.toVerifyItemDeletionAfterPercentofSalesTYValues'(ItemDeletionAfterTotalPercentOfSalesTY, ItemDeletionAfterTotalPercentOfSalesTYCalculated, Store)
+CustomKeywords.'compareColumnsValues.LossPreventionValuesCompare.toVerifyRefundPercentofSalesTYValues'(RefundPercentOfSalesTY, RefundPercentOfSalesTYCalculated, Store)
+CustomKeywords.'compareColumnsValues.LossPreventionValuesCompare.toVerifyCancelledTransactionPercentofSalesTYValues'(CancelledTransactionPercentOfSalesTY, CancelledTransactionPercentOfSalesTYCalculated, Store)
+//CustomKeywords.'compareColumnsValues.LossPreventionValuesCompare.toVerifyVoidTransactionPercentofSalesTYValues'(VoidTransactionPercentOfSalesTY, VoidTransactionPercentOfSalesTYCalculated, Store)
+
+//Comparision of Loss Prevention Formulas LY
+
+
+
+CustomKeywords.'compareColumnsValues.LossPreventionValuesCompare.toVerifyCashOverShortPercentofSalesLYValues'(CashOverShortPercentOfSalesLY, CashOverShortPercentOfSalesLYCalculated, Store)
+CustomKeywords.'compareColumnsValues.LossPreventionValuesCompare.toVerifyItemDeletionPercentofSalesLYValues'(ItemDeletionPercentOfSalesLY, ItemDeletionPercentOfSalesLYCalculated, Store)
+CustomKeywords.'compareColumnsValues.LossPreventionValuesCompare.toVerifyItemDeletionBeforePercentofSalesLYValues'(ItemDeletionBeforeTotalPercentOfSalesLY, ItemDeletionBeforeTotalPercentOfSalesLYCalculated, Store)
+CustomKeywords.'compareColumnsValues.LossPreventionValuesCompare.toVerifyItemDeletionAfterPercentofSalesLYValues'(ItemDeletionAfterTotalPercentOfSalesLY, ItemDeletionAfterTotalPercentOfSalesLYCalculated, Store)
+CustomKeywords.'compareColumnsValues.LossPreventionValuesCompare.toVerifyRefundPercentofSalesLYValues'(RefundPercentOfSalesLY, RefundPercentOfSalesLYCalculated, Store)
+CustomKeywords.'compareColumnsValues.LossPreventionValuesCompare.toVerifyCancelledTransactionPercentofSalesLYValues'(CancelledTransactionPercentOfSalesLY, CancelledTransactionPercentOfSalesLYCalculated, Store)
+//CustomKeywords.'compareColumnsValues.LossPreventionValuesCompare.toVerifyVoidTransactionPercentofSalesLYValues'(VoidTransactionPercentOfSalesLY, VoidTransactionPercentOfSalesLYCalculated, Store)
+
+//Total Transaction TY Comparision
+
+CustomKeywords.'compareColumnsValues.LossPreventionValuesCompare.toVerifyItemDeletionCountPercentofTotalTransactionsTYValues'(ItemDeletionCountPercentofTotalTransactionsTY, ItemDeletionCountPercentofTotalTransactionsTYCalculated, Store)
+CustomKeywords.'compareColumnsValues.LossPreventionValuesCompare.toVerifyItemDeletionBeforeCountPercentofTotalTransactionsTYValues'(ItemDeletionBeforeTotalCountPercentOfSalesTY, ItemDeletionBeforeTotalCountPercentOfSalesTYCalculated, Store)
+CustomKeywords.'compareColumnsValues.LossPreventionValuesCompare.toVerifyItemDeletionAfterCountPercentofTotalTransactionsTYValues'(ItemDeletionAfterTotalCountPercentOfSalesTY, ItemDeletionAfterTotalCountPercentOfSalesTYCalculated, Store)
+CustomKeywords.'compareColumnsValues.LossPreventionValuesCompare.toVerifyCancelTransactionCountPercentofTotalTransactionsTYValues'(CancelledTransactionPercentofTotalTransactionsTY, CancelledTransactionPercentofTotalTransactionsTYCalculated, Store)
+//CustomKeywords.'compareColumnsValues.LossPreventionValuesCompare.toVerifyVoidTransactionCountPercentofTotalTransactionsTYValues'(VoidTransactionPercentofTotalTransactionsLY, VoidTransactionPercentofTotalTransactionsLYCalculated, Store)
+
+//Total Transaction LY Comparision
+
+CustomKeywords.'compareColumnsValues.LossPreventionValuesCompare.toVerifyItemDeletionCountPercentofTotalTransactionsLYValues'(ItemDeletionCountPercentofTotalTransactionsLY, ItemDeletionCountPercentofTotalTransactionsLYCalculated, Store)
+CustomKeywords.'compareColumnsValues.LossPreventionValuesCompare.toVerifyItemDeletionBeforeCountPercentofTotalTransactionsLYValues'(ItemDeletionBeforeTotalCountPercentOfSalesLY, ItemDeletionBeforeTotalCountPercentOfSalesLYCalculated, Store)
+CustomKeywords.'compareColumnsValues.LossPreventionValuesCompare.toVerifyItemDeletionAfterCountPercentofTotalTransactionsLYValues'(ItemDeletionAfterTotalCountPercentOfSalesLY, ItemDeletionAfterTotalCountPercentOfSalesLYCalculated, Store)
+CustomKeywords.'compareColumnsValues.LossPreventionValuesCompare.toVerifyCancelTransactionCountPercentofTotalTransactionsLYValues'(CancelledTransactionPercentofTotalTransactionsLY, CancelledTransactionPercentofTotalTransactionsLYCalculated, Store)
+//CustomKeywords.'compareColumnsValues.LossPreventionValuesCompare.toVerifyVoidTransactionCountPercentofTotalTransactionsLYValues'(VoidTransactionPercentofTotalTransactionsLY, VoidTransactionPercentofTotalTransactionsLYCalculated, Store)
+
+
+
+CustomKeywords.'compareColumnsValues.LossPreventionValuesCompare.toVerifyCashOverShortPercentTYvsLYValues'(CashovershortvsLYDollor, CashovershortvsLYDollorCalculated, Store)
+CustomKeywords.'compareColumnsValues.LossPreventionValuesCompare.toVerifyItemDeletionDollorTYvsLYValues'(ItemDeletionvsLYDollor, ItemDeletionvsLYDollorCalculated, Store)
+CustomKeywords.'compareColumnsValues.LossPreventionValuesCompare.toVerifyItemDeletionBeforeTotalDollorTYvsLYValues'(ItemDeletionBeforeTotalDollorvsLY, ItemDeletionBeforeTotalDollorvsLYCalculate, Store)
+CustomKeywords.'compareColumnsValues.LossPreventionValuesCompare.toVerifyItemDeletionAfterTotalDollorTYvsLYValues'(ItemDeletionAfterTotalDollorvsLY, ItemDeletionAfterTotalDollorvsLYCalculated, Store)
+CustomKeywords.'compareColumnsValues.LossPreventionValuesCompare.toVerifyRefundDollorValues'(RefundDollorvsLY, RefundDollorvsLYCalculated, Store)
+CustomKeywords.'compareColumnsValues.LossPreventionValuesCompare.toVerifyCancelledTransactionsValues'(CancelledTransactionvsLYDollor, CancelledTransactionvsLYDollorCalculated, Store)
+//CustomKeywords.'compareColumnsValues.LossPreventionValuesCompare.toVerifyVoidTransactionsValues'(VoidTransactionvsLYDollor, VoidTransactionvsLYDollorCalculated, Store)
+
+CustomKeywords.'compareColumnsValues.LossPreventionValuesCompare.toVerifyCashOverShortPercentOfSalesTYvsLY_PPValues'(CashOverShortPercentofSalesTYvsLYPP, CashOverShortPercentofSalesTYvsLYPPCalculated, Store)
+CustomKeywords.'compareColumnsValues.LossPreventionValuesCompare.toVerifyItemDeletionPercentOfSalesTYvsLY_PPValues'(ItemDeletionPercentofSalesTYvsLYPP, ItemDeletionPercentofSalesTYvsLYPPCalculated, Store)
+CustomKeywords.'compareColumnsValues.LossPreventionValuesCompare.toVerifyItemDeletionBeforeTotalPercentOfSalesTYvsLY_PPValues'(ItemDeletionBeforeTotalPercentofSalesTYvsLYPP, ItemDeletionBeforeTotalPercentofSalesTYvsLYPPCalculated, Store)
+CustomKeywords.'compareColumnsValues.LossPreventionValuesCompare.toVerifyItemDeletionAfterTotalPercentOfSalesTYvsLY_PPValues'(ItemDeletionAfterTotalPercentofSalesTYvsLYPP, ItemDeletionAfterTotalPercentofSalesTYvsLYPPCalculated, Store)
+CustomKeywords.'compareColumnsValues.LossPreventionValuesCompare.toVerifyRefundPercentOfSalesTYvsLY_PPValues'(RefundPercentofSalesTYvsLYPP, RefundPercentofSalesTYvsLYPPCalculated, Store)
+CustomKeywords.'compareColumnsValues.LossPreventionValuesCompare.toVerifyCancelledTransactionPercentOfSalesTYvsLY_PPValues'(CancelledTransactionPercentofSalesTYvsLYPP, CancelledTransactionPercentofSalesTYvsLYPPCalculated, Store)
+//CustomKeywords.'compareColumnsValues.LossPreventionValuesCompare.toVerifyVoidTransactionsPercentOfSalesTYvsLY_PPValues'(RefundPercentofSalesTYvsLYPP, RefundPercentofSalesTYvsLYPP, Store)
+
+CustomKeywords.'compareColumnsValues.LossPreventionValuesCompare.toVerifyItemDeletionCountTYvsLYValues'(ItemDeletionvsLYCount, ItemDeletionvsLYCountCalculated, Store)
+CustomKeywords.'compareColumnsValues.LossPreventionValuesCompare.toVerifyCancelledTransactionCountTYvsLYValues'(CancelledTransactionvsLYCount, CancelledTransactionvsLYCountCalculated, Store)
+CustomKeywords.'compareColumnsValues.LossPreventionValuesCompare.toVerifyItemDeletionBeforeTotalCountTYvsLYValues'(ItemDeletionBeforeTotalCountvsLY, ItemDeletionBeforeTotalCountvsLYCalculated, Store)
+CustomKeywords.'compareColumnsValues.LossPreventionValuesCompare.toVerifyItemDeletionAfterTotalCountTYvsLYValues'(ItemDeletionAfterTotalCountvsLY, ItemDeletionAfterTotalCountvsLYCalculated, Store)
+//CustomKeywords.'compareColumnsValues.LossPreventionValuesCompare.toVerifyVoidTransactionsCountTYvsLYValues'(VoidTransactionCountTyvsLY, VoidTransactionCountTyvsLYCalculated, Store)
+
+
+CustomKeywords.'compareColumnsValues.LossPreventionValuesCompare.toVerifyItemDeletionCountPercentOfTotalTransactionsYvsLY_PPValues'(ItemDeletionCountPercentofTotalTransactionTYvsLYPP, ItemDeletionCountPercentofTotalTransactionTYvsLYPPCalculated, Store)
+CustomKeywords.'compareColumnsValues.LossPreventionValuesCompare.toVerifyCancelledTransactionsCountPercentOfTotalTransactionsYvsLY_PPValues'(CancelledTransactionPercentofTotalTransactionTYvsLYPP, CancelledTransactionPercentofTotalTransactionTYvsLYPPCalculated, Store)
+CustomKeywords.'compareColumnsValues.LossPreventionValuesCompare.toVerifyItemDeletionBeforeTotalCountPercentOfTotalTransactionsYvsLY_PPValues'(ItemDeletionBeforeTotalCountPercentofTotalTransactionTYvsLYPP, ItemDeletionBeforeTotalCountPercentofTotalTransactionTYvsLYPPCalculated, Store)
+CustomKeywords.'compareColumnsValues.LossPreventionValuesCompare.toVerifyItemDeletionAfterTotalCountPercentOfTotalTransactionsYvsLY_PPValues'(ItemDeletionAfterTotalCountPercentofTotalTransactionTYvsLYPP, ItemDeletionAfterTotalCountPercentofTotalTransactionTYvsLYPPCalculated, Store)
+//CustomKeywords.'compareColumnsValues.LossPreventionValuesCompare.toVerifyVoidTransactionsCountPercentOfTotalTransactionsYvsLY_PPValues'(VoidTransactionCountPercentofTotalTransactionTYvsLYPP, VoidTransactionCountPercentofTotalTransactionTYvsLYPPCalculated, Store)
+

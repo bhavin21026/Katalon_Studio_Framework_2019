@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify all added columns in report is same as added during set up</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9e3f4351-f556-4945-9c2d-f5467c788aed</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>673f4a86-f758-4451-8003-4e6f4b27f4c6</id>
+      <masked>false</masked>
+      <name>AddedColumnsSize</name>
+   </variable>
+   <variable>
+      <defaultValue>[]</defaultValue>
+      <description></description>
+      <id>1b54fdbc-5609-4615-be73-eaf3203d71c2</id>
+      <masked>false</masked>
+      <name>SetUpList</name>
+   </variable>
+</TestCaseEntity>

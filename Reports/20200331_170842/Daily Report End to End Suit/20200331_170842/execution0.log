@@ -1,0 +1,1116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-03-31T17:08:45</date>
+  <millis>1585654725650</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Daily Report End to End Suit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">Daily Report End to End Suit</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Daily Report End to End Suit</property>
+</record>
+<record>
+  <date>2020-03-31T17:08:45</date>
+  <millis>1585654725671</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = bksangani - aixahm-ts6.analytix.local</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">bksangani - aixahm-ts6.analytix.local</property>
+</record>
+<record>
+  <date>2020-03-31T17:08:45</date>
+  <millis>1585654725672</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows Server 2016 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows Server 2016 64bit</property>
+</record>
+<record>
+  <date>2020-03-31T17:08:45</date>
+  <millis>1585654725673</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.16.190</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.16.190</property>
+</record>
+<record>
+  <date>2020-03-31T17:08:45</date>
+  <millis>1585654725674</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 7.2.1.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">7.2.1.1</property>
+</record>
+<record>
+  <date>2020-03-31T17:08:45</date>
+  <millis>1585654725686</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : beforeTestSuit</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:08:46</date>
+  <millis>1585654726088</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:08:46</date>
+  <millis>1585654726138</millis>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 seconds</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:08:49</date>
+  <millis>1585654729582</millis>
+  <sequence>12</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = d1fcd54191f412bd584681e7ad3b6ce9</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="sessionId">d1fcd54191f412bd584681e7ad3b6ce9</property>
+</record>
+<record>
+  <date>2020-03-31T17:08:49</date>
+  <millis>1585654729609</millis>
+  <sequence>13</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 80.0.3987.149</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="browser">Chrome 80.0.3987.149</property>
+</record>
+<record>
+  <date>2020-03-31T17:08:49</date>
+  <millis>1585654729609</millis>
+  <sequence>14</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows Server 2016</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="platform">Windows Server 2016</property>
+</record>
+<record>
+  <date>2020-03-31T17:08:49</date>
+  <millis>1585654729610</millis>
+  <sequence>15</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.141.59</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="seleniumVersion">3.141.59</property>
+</record>
+<record>
+  <date>2020-03-31T17:08:49</date>
+  <millis>1585654729612</millis>
+  <sequence>16</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=USE_SYSTEM, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=USE_SYSTEM, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}</property>
+</record>
+<record>
+  <date>2020-03-31T17:08:49</date>
+  <millis>1585654729634</millis>
+  <sequence>17</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:08:50</date>
+  <millis>1585654730814</millis>
+  <sequence>19</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Current window maximized</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:08:50</date>
+  <millis>1585654730848</millis>
+  <sequence>20</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delete all cookies successfully</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:02</date>
+  <millis>1585654742657</millis>
+  <sequence>23</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;http://devdunkin.sunbeltsol.com/&amp;apos; successfully</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:02</date>
+  <millis>1585654742658</millis>
+  <sequence>25</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : beforeTestSuit</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:02</date>
+  <millis>1585654742852</millis>
+  <sequence>26</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/CrossLocationReportBuilder_TestCases/TC8_Create Daily Report with valid details and compare report values with calender for specific time period</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/CrossLocationReportBuilder_TestCases/TC8_Create Daily Report with valid details and compare report values with calender for specific time period</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/CrossLocationReportBuilder_TestCases/TC8_Create Daily Report with valid details and compare report values with calender for specific time period</property>
+  <property name="source">D:\\Users\\bksangani\\Katalon Studio\\ReportBuilderV1\\Test Cases\\CrossLocationReportBuilder_TestCases\\TC8_Create Daily Report with valid details and compare report values with calender for specific time period.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-03-31T17:09:03</date>
+  <millis>1585654743253</millis>
+  <sequence>30</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/CrossLocationReportBuilder_TestCases/TC1_Verify successfull login</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="name">Test Cases/CrossLocationReportBuilder_TestCases/TC1_Verify successfull login</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/CrossLocationReportBuilder_TestCases/TC1_Verify successfull login</property>
+  <property name="source">D:\\Users\\bksangani\\Katalon Studio\\ReportBuilderV1\\Test Cases\\CrossLocationReportBuilder_TestCases\\TC1_Verify successfull login.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-03-31T17:09:03</date>
+  <millis>1585654743550</millis>
+  <sequence>34</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/ReportBuilder_Pages/LoginPage/Login with encrypted username and password</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="name">Test Cases/ReportBuilder_Pages/LoginPage/Login with encrypted username and password</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/ReportBuilder_Pages/LoginPage/Login with encrypted username and password</property>
+  <property name="source">D:\\Users\\bksangani\\Katalon Studio\\ReportBuilderV1\\Test Cases\\ReportBuilder_Pages\\LoginPage\\Login with encrypted username and password.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-03-31T17:09:04</date>
+  <millis>1585654744206</millis>
+  <sequence>45</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Cafua_Dev@analytix.com&amp;apos; is set on object &amp;apos;Object Repository/Page_Dunkin Donuts - Executive Dashboard/input_Login_textBoxEmailAddress&amp;apos;</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:04</date>
+  <millis>1585654744477</millis>
+  <sequence>55</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;!9TgLT8dK3&amp;apos; is set on object &amp;apos;Object Repository/Page_Dunkin Donuts - Executive Dashboard/input_Login_textBoxPassword&amp;apos;</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:04</date>
+  <millis>1585654744651</millis>
+  <sequence>65</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_Dunkin Donuts - Executive Dashboard/input_Login_buttonLogin&amp;apos; is clicked on</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:04</date>
+  <millis>1585654744653</millis>
+  <sequence>66</sequence>
+  <level>NOT_RUN</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>NOT_RUN: waitForElementClickable(findTestObject(\&amp;quot;Page_Restaurant Intranet/link_ProfileIcon\&amp;quot;), ExplicitWait)</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:04</date>
+  <millis>1585654744653</millis>
+  <sequence>67</sequence>
+  <level>NOT_RUN</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>NOT_RUN: verifyElementVisible(findTestObject(\&amp;quot;Page_Restaurant Intranet/link_ProfileIcon\&amp;quot;))</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:04</date>
+  <millis>1585654744654</millis>
+  <sequence>68</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/ReportBuilder_Pages/LoginPage/Login with encrypted username and password</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:04</date>
+  <millis>1585654744654</millis>
+  <sequence>69</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/ReportBuilder_Pages/LoginPage/Login with encrypted username and password</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:04</date>
+  <millis>1585654744662</millis>
+  <sequence>70</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Call Test Case &amp;apos;Test Cases/ReportBuilder_Pages/LoginPage/Login with encrypted username and password&amp;apos; successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:04</date>
+  <millis>1585654744662</millis>
+  <sequence>71</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/CrossLocationReportBuilder_TestCases/TC1_Verify successfull login</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:04</date>
+  <millis>1585654744663</millis>
+  <sequence>72</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/CrossLocationReportBuilder_TestCases/TC1_Verify successfull login</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:04</date>
+  <millis>1585654744663</millis>
+  <sequence>73</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Call Test Case &amp;apos;Test Cases/CrossLocationReportBuilder_TestCases/TC1_Verify successfull login&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:04</date>
+  <millis>1585654744725</millis>
+  <sequence>76</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/CrossLocationReportBuilder_TestCases/TC3_Verify Report Builder Link functionality</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="name">Test Cases/CrossLocationReportBuilder_TestCases/TC3_Verify Report Builder Link functionality</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/CrossLocationReportBuilder_TestCases/TC3_Verify Report Builder Link functionality</property>
+  <property name="source">D:\\Users\\bksangani\\Katalon Studio\\ReportBuilderV1\\Test Cases\\CrossLocationReportBuilder_TestCases\\TC3_Verify Report Builder Link functionality.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-03-31T17:09:04</date>
+  <millis>1585654744989</millis>
+  <sequence>80</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/ReportBuilder_Pages/Restaurant_Intranet_Dashboard_Page/Verify and Click on Report Builder link from profile</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="name">Test Cases/ReportBuilder_Pages/Restaurant_Intranet_Dashboard_Page/Verify and Click on Report Builder link from profile</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/ReportBuilder_Pages/Restaurant_Intranet_Dashboard_Page/Verify and Click on Report Builder link from profile</property>
+  <property name="source">D:\\Users\\bksangani\\Katalon Studio\\ReportBuilderV1\\Test Cases\\ReportBuilder_Pages\\Restaurant_Intranet_Dashboard_Page\\Verify and Click on Report Builder link from profile.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-03-31T17:09:05</date>
+  <millis>1585654745238</millis>
+  <sequence>82</sequence>
+  <level>NOT_RUN</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>NOT_RUN: waitForElementPresent(findTestObject(\&amp;quot;Page_Restaurant Intranet/Setup/tasterMessage\&amp;quot;), 20)</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:05</date>
+  <millis>1585654745239</millis>
+  <sequence>83</sequence>
+  <level>NOT_RUN</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>NOT_RUN: waitForElementNotPresent(findTestObject(\&amp;quot;Page_Restaurant Intranet/Setup/tasterMessage\&amp;quot;), 10)</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:08</date>
+  <millis>1585654748249</millis>
+  <sequence>85</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:08</date>
+  <millis>1585654748569</millis>
+  <sequence>94</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_Restaurant Intranet/Left_Nav_Bar/link_CrossLocationReportIcon&amp;apos; is hovered</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:08</date>
+  <millis>1585654748743</millis>
+  <sequence>102</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Page_Restaurant Intranet/Left_Nav_Bar/link_Setup&amp;apos; is clickable</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:08</date>
+  <millis>1585654748806</millis>
+  <sequence>107</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:08</date>
+  <millis>1585654748826</millis>
+  <sequence>110</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Page_Restaurant Intranet/Left_Nav_Bar/link_Setup&amp;apos; is present</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:08</date>
+  <millis>1585654748995</millis>
+  <sequence>121</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>javascript error: Failed to execute &amp;apos;elementsFromPoint&amp;apos; on &amp;apos;Document&amp;apos;: The provided double value is non-finite.\n  (Session info: chrome=80.0.3987.149)\nBuild info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;\nSystem info: host: &amp;apos;AIXAHM-TS6&amp;apos;, ip: &amp;apos;192.168.16.190&amp;apos;, os.name: &amp;apos;Windows Server 2016&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_181&amp;apos;\nDriver info: com.kms.katalon.selenium.driver.CChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: D:\\Users\\bksangani\\AppData\\...}, goog:chromeOptions: {debuggerAddress: localhost:10090}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: d1fcd54191f412bd584681e7ad3b6ce9</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:10</date>
+  <millis>1585654750406</millis>
+  <sequence>122</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_Restaurant Intranet/Left_Nav_Bar/link_Setup&amp;apos; is clicked on</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:10</date>
+  <millis>1585654750530</millis>
+  <sequence>130</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Page_Restaurant Intranet/Left_Nav_Bar/div_ReportBuilderLink&amp;apos; is clickable</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:10</date>
+  <millis>1585654750586</millis>
+  <sequence>135</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:10</date>
+  <millis>1585654750604</millis>
+  <sequence>138</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Page_Restaurant Intranet/Left_Nav_Bar/div_ReportBuilderLink&amp;apos; is present</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:10</date>
+  <millis>1585654750773</millis>
+  <sequence>148</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_Restaurant Intranet/Left_Nav_Bar/div_ReportBuilderLink&amp;apos; is clicked on</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:10</date>
+  <millis>1585654750773</millis>
+  <sequence>149</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/ReportBuilder_Pages/Restaurant_Intranet_Dashboard_Page/Verify and Click on Report Builder link from profile</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:10</date>
+  <millis>1585654750774</millis>
+  <sequence>150</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/ReportBuilder_Pages/Restaurant_Intranet_Dashboard_Page/Verify and Click on Report Builder link from profile</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:10</date>
+  <millis>1585654750775</millis>
+  <sequence>151</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Call Test Case &amp;apos;Test Cases/ReportBuilder_Pages/Restaurant_Intranet_Dashboard_Page/Verify and Click on Report Builder link from profile&amp;apos; successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:10</date>
+  <millis>1585654750775</millis>
+  <sequence>152</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/CrossLocationReportBuilder_TestCases/TC3_Verify Report Builder Link functionality</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:10</date>
+  <millis>1585654750776</millis>
+  <sequence>153</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/CrossLocationReportBuilder_TestCases/TC3_Verify Report Builder Link functionality</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:10</date>
+  <millis>1585654750776</millis>
+  <sequence>154</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Call Test Case &amp;apos;Test Cases/CrossLocationReportBuilder_TestCases/TC3_Verify Report Builder Link functionality&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:10</date>
+  <millis>1585654750836</millis>
+  <sequence>157</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/ReportBuilder_Pages/ReportSetup_Page/Verify Add Report button and Click</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="name">Test Cases/ReportBuilder_Pages/ReportSetup_Page/Verify Add Report button and Click</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/ReportBuilder_Pages/ReportSetup_Page/Verify Add Report button and Click</property>
+  <property name="source">D:\\Users\\bksangani\\Katalon Studio\\ReportBuilderV1\\Test Cases\\ReportBuilder_Pages\\ReportSetup_Page\\Verify Add Report button and Click.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-03-31T17:09:11</date>
+  <millis>1585654751149</millis>
+  <sequence>163</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:11</date>
+  <millis>1585654751165</millis>
+  <sequence>166</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Page_Restaurant Intranet/Left_Nav_Bar/div_ReportBuilderLink&amp;apos; is present</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:11</date>
+  <millis>1585654751166</millis>
+  <sequence>167</sequence>
+  <level>NOT_RUN</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>NOT_RUN: click(findTestObject(\&amp;quot;Page_Restaurant Intranet/Left_Nav_Bar/div_ReportBuilderLink\&amp;quot;), CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:11</date>
+  <millis>1585654751264</millis>
+  <sequence>175</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/ReportBuilderUI/div_Report Setup&amp;apos; is clickable</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:11</date>
+  <millis>1585654751508</millis>
+  <sequence>185</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/ReportBuilderUI/div_Report Setup&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:11</date>
+  <millis>1585654751605</millis>
+  <sequence>193</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/ReportBuilderUI/button_Add&amp;apos; is clickable</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:12</date>
+  <millis>1585654752023</millis>
+  <sequence>203</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/ReportBuilderUI/button_Add&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:12</date>
+  <millis>1585654752460</millis>
+  <sequence>206</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Cross Location Report Builder&amp;apos; is present on page </message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:12</date>
+  <millis>1585654752460</millis>
+  <sequence>207</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/ReportBuilder_Pages/ReportSetup_Page/Verify Add Report button and Click</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:12</date>
+  <millis>1585654752461</millis>
+  <sequence>208</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/ReportBuilder_Pages/ReportSetup_Page/Verify Add Report button and Click</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:12</date>
+  <millis>1585654752462</millis>
+  <sequence>209</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Call Test Case &amp;apos;Test Cases/ReportBuilder_Pages/ReportSetup_Page/Verify Add Report button and Click&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:12</date>
+  <millis>1585654752521</millis>
+  <sequence>212</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/ReportBuilder_Pages/CrossLocationReportBuilderSetup_Page/Give Report Name</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="name">Test Cases/ReportBuilder_Pages/CrossLocationReportBuilderSetup_Page/Give Report Name</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/ReportBuilder_Pages/CrossLocationReportBuilderSetup_Page/Give Report Name</property>
+  <property name="source">D:\\Users\\bksangani\\Katalon Studio\\ReportBuilderV1\\Test Cases\\ReportBuilder_Pages\\CrossLocationReportBuilderSetup_Page\\Give Report Name.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-03-31T17:09:12</date>
+  <millis>1585654752526</millis>
+  <sequence>214</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>ReportName = Daily Sales</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:12</date>
+  <millis>1585654752992</millis>
+  <sequence>224</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/ReportSetupScreen/Name Your Report/input_Reports_form-item&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:13</date>
+  <millis>1585654753281</millis>
+  <sequence>234</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Daily Sales&amp;apos; is set on object &amp;apos;Object Repository/ReportSetupScreen/Name Your Report/input_Reports_form-item&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:13</date>
+  <millis>1585654753281</millis>
+  <sequence>235</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/ReportBuilder_Pages/CrossLocationReportBuilderSetup_Page/Give Report Name</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:13</date>
+  <millis>1585654753282</millis>
+  <sequence>236</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/ReportBuilder_Pages/CrossLocationReportBuilderSetup_Page/Give Report Name</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:13</date>
+  <millis>1585654753283</millis>
+  <sequence>237</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Call Test Case &amp;apos;Test Cases/ReportBuilder_Pages/CrossLocationReportBuilderSetup_Page/Give Report Name&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:13</date>
+  <millis>1585654753345</millis>
+  <sequence>240</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/ReportBuilder_Pages/CrossLocationReportBuilderSetup_Page/Select Report Category</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="name">Test Cases/ReportBuilder_Pages/CrossLocationReportBuilderSetup_Page/Select Report Category</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/ReportBuilder_Pages/CrossLocationReportBuilderSetup_Page/Select Report Category</property>
+  <property name="source">D:\\Users\\bksangani\\Katalon Studio\\ReportBuilderV1\\Test Cases\\ReportBuilder_Pages\\CrossLocationReportBuilderSetup_Page\\Select Report Category.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-03-31T17:09:13</date>
+  <millis>1585654753354</millis>
+  <sequence>242</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>ReportCategory = Sales/Controllables</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:14</date>
+  <millis>1585654754091</millis>
+  <sequence>252</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/ReportSetupScreen/Name Your Report/input_Report Name_form-item ng-untouched ng-pristine ng-invalid&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:14</date>
+  <millis>1585654754607</millis>
+  <sequence>262</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Sales/Controllables&amp;apos; is set on object &amp;apos;Object Repository/ReportSetupScreen/Name Your Report/input_SelectCategory&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:15</date>
+  <millis>1585654755864</millis>
+  <sequence>264</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:15</date>
+  <millis>1585654755864</millis>
+  <sequence>265</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/ReportBuilder_Pages/CrossLocationReportBuilderSetup_Page/Select Report Category</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:15</date>
+  <millis>1585654755865</millis>
+  <sequence>266</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/ReportBuilder_Pages/CrossLocationReportBuilderSetup_Page/Select Report Category</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:15</date>
+  <millis>1585654755865</millis>
+  <sequence>267</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Call Test Case &amp;apos;Test Cases/ReportBuilder_Pages/CrossLocationReportBuilderSetup_Page/Select Report Category&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:15</date>
+  <millis>1585654755924</millis>
+  <sequence>270</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/ReportBuilder_Pages/CrossLocationReportBuilderSetup_Page/Data Grain with Present Data By/Select Data Grain And Present Data By options for Report</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="name">Test Cases/ReportBuilder_Pages/CrossLocationReportBuilderSetup_Page/Data Grain with Present Data By/Select Data Grain And Present Data By options for Report</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/ReportBuilder_Pages/CrossLocationReportBuilderSetup_Page/Data Grain with Present Data By/Select Data Grain And Present Data By options for Report</property>
+  <property name="source">D:\\Users\\bksangani\\Katalon Studio\\ReportBuilderV1\\Test Cases\\ReportBuilder_Pages\\CrossLocationReportBuilderSetup_Page\\Data Grain with Present Data By\\Select Data Grain And Present Data By options for Report.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-03-31T17:09:16</date>
+  <millis>1585654756384</millis>
+  <sequence>274</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/ReportBuilder_Pages/CrossLocationReportBuilderSetup_Page/Data Grain with Present Data By/Grain By Daily with Present By Day</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="name">Test Cases/ReportBuilder_Pages/CrossLocationReportBuilderSetup_Page/Data Grain with Present Data By/Grain By Daily with Present By Day</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/ReportBuilder_Pages/CrossLocationReportBuilderSetup_Page/Data Grain with Present Data By/Grain By Daily with Present By Day</property>
+  <property name="source">D:\\Users\\bksangani\\Katalon Studio\\ReportBuilderV1\\Test Cases\\ReportBuilder_Pages\\CrossLocationReportBuilderSetup_Page\\Data Grain with Present Data By\\Grain By Daily with Present By Day.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-03-31T17:09:16</date>
+  <millis>1585654756391</millis>
+  <sequence>276</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>NoOfdays = 35</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:16</date>
+  <millis>1585654756812</millis>
+  <sequence>286</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/ReportSetupScreen/Data Grain/button_Daily&amp;apos; is clicked on</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:16</date>
+  <millis>1585654756989</millis>
+  <sequence>296</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/ReportSetupScreen/Present Data By/button_Day&amp;apos; is clicked on</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:17</date>
+  <millis>1585654757203</millis>
+  <sequence>306</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;35&amp;apos; is set on object &amp;apos;Object Repository/ReportSetupScreen/Present Data By/input_Limit no of days_form-item ng-untouched ng-pristine ng-invalid&amp;apos;</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:17</date>
+  <millis>1585654757204</millis>
+  <sequence>307</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/ReportBuilder_Pages/CrossLocationReportBuilderSetup_Page/Data Grain with Present Data By/Grain By Daily with Present By Day</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:17</date>
+  <millis>1585654757204</millis>
+  <sequence>308</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/ReportBuilder_Pages/CrossLocationReportBuilderSetup_Page/Data Grain with Present Data By/Grain By Daily with Present By Day</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:17</date>
+  <millis>1585654757205</millis>
+  <sequence>309</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Call Test Case &amp;apos;Test Cases/ReportBuilder_Pages/CrossLocationReportBuilderSetup_Page/Data Grain with Present Data By/Grain By Daily with Present By Day&amp;apos; successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:17</date>
+  <millis>1585654757264</millis>
+  <sequence>312</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/ReportBuilder_Pages/CrossLocationReportBuilderSetup_Page/Column Selection By Data Grain/Daily Data Grain/Net Sales - Daily Data Grain</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="name">Test Cases/ReportBuilder_Pages/CrossLocationReportBuilderSetup_Page/Column Selection By Data Grain/Daily Data Grain/Net Sales - Daily Data Grain</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/ReportBuilder_Pages/CrossLocationReportBuilderSetup_Page/Column Selection By Data Grain/Daily Data Grain/Net Sales - Daily Data Grain</property>
+  <property name="source">D:\\Users\\bksangani\\Katalon Studio\\ReportBuilderV1\\Test Cases\\ReportBuilder_Pages\\CrossLocationReportBuilderSetup_Page\\Column Selection By Data Grain\\Daily Data Grain\\Net Sales - Daily Data Grain.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-03-31T17:09:20</date>
+  <millis>1585654760327</millis>
+  <sequence>325</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/ReportSetupScreen/Create Columns/link_Add Columns&amp;apos; is clicked on</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:24</date>
+  <millis>1585654764176</millis>
+  <sequence>335</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/ReportSetupScreen/Create Columns/drp_DataGroup&amp;apos; is clicked on</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:24</date>
+  <millis>1585654764282</millis>
+  <sequence>342</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/ReportSetupScreen/DataGroupValues/Net Sales(DWM)/tupple_Net_Sales&amp;apos; is clickable</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-03-31T17:09:30</date>
+  <millis>1585654770575</millis>
+  <sequence>354</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/ReportSetupScreen/DataGroupValues/Net Sales(DWM)/tupple_Net_Sales&amp;apos; is clicked on</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+</log>

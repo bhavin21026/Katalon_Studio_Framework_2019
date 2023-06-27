@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_toChangeBudget</name>
+   <tag></tag>
+   <elementGuidId>5123b16e-0d8a-495a-b49a-4c9480e5a091</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;mdl-dailyActuals&quot;]/div/div/div[2]/div/div[1]/div/div/table/thead/tr/th[3]/ul/li[2]/span[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;mdl-dailyActuals&quot;]/div/div/div[2]/div/div[1]/div/div/table/thead/tr/th[3]/ul/li[2]/span[1]</value>
+   </webElementProperties>
+</WebElementEntity>

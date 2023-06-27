@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>To map and compare all report values coming as per formula</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>237a5c46-9b79-4d01-9e47-0b0ae5deb53f</testCaseGuid>
+   <variable>
+      <defaultValue>[:]</defaultValue>
+      <description></description>
+      <id>1828ef3f-f059-4a68-90f9-d58aed255131</id>
+      <masked>false</masked>
+      <name>formulaValues</name>
+   </variable>
+</TestCaseEntity>

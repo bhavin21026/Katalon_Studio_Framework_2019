@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC9_Verify that user should be able to create new Report Category with valid details</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8da072a6-6856-4435-89dd-a9da66e21e50</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.CategoryName</defaultValue>
+      <description></description>
+      <id>59d6cd40-125f-46d3-be8b-be62791d2e76</id>
+      <masked>false</masked>
+      <name>CategoryName</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.IconName</defaultValue>
+      <description></description>
+      <id>73088870-9465-4067-9eea-abf230c243c5</id>
+      <masked>false</masked>
+      <name>DisplayOrder</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.IconName</defaultValue>
+      <description></description>
+      <id>0cd2e6a2-74c3-492a-90df-67ef2ffc9fb6</id>
+      <masked>false</masked>
+      <name>IconName</name>
+   </variable>
+</TestCaseEntity>

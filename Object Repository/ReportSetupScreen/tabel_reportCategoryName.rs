@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>tabel_reportCategoryName</name>
+   <tag></tag>
+   <elementGuidId>6ccea957-c21e-4262-8855-fb2cfab99fe0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=\&quot;main-field\&quot;]/div/div/div/app-reports/div/app-report-list/div/table/tbody/tr/td[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=\&quot;main-field\&quot;]/div/div/div/app-reports/div/app-report-list/div/table/tbody/tr/td[2]</value>
+   </webElementProperties>
+</WebElementEntity>

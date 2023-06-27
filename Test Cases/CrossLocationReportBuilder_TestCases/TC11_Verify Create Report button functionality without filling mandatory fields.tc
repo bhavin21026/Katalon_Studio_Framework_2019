@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC11_Verify Create Report button functionality without filling mandatory fields</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>36fe1c50-aa94-45a7-aba2-5938b920d490</testCaseGuid>
+</TestCaseEntity>

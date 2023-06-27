@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC36_Verify Remove column(s) functionality with unchecking checkbox from dropdown</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fd78af0a-b6a2-44a5-a9c0-f3588310d513</testCaseGuid>
+</TestCaseEntity>

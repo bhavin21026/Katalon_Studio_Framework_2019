@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC23_Verify list of total Data Groups for Daily Data Grain selection under Create Column section</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>10fff61c-7d6b-4724-87c9-e0dedb58da2b</testCaseGuid>
+</TestCaseEntity>

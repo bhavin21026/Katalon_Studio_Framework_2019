@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>To map and compare all Loss prevention Columns</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3fb6ab4b-5a40-40c1-8012-995f57748f29</testCaseGuid>
+   <variable>
+      <defaultValue>[:]</defaultValue>
+      <description></description>
+      <id>9dfe7de2-f063-4ee6-be09-2b8b8d547607</id>
+      <masked>false</masked>
+      <name>formulaValues</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>drp_LaborBudgetBy</name>
+   <tag></tag>
+   <elementGuidId>72cda915-6fd4-41fa-8f03-71929ead37bb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;main-field&quot;]/div/div/div/div[3]/div/table/tbody/tr[3]/td[2]/div/select</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;main-field&quot;]/div/div/div/div[3]/div/table/tbody/tr[3]/td[2]/div/select</value>
+   </webElementProperties>
+</WebElementEntity>

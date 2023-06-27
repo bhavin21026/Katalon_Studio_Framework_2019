@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Fetch variable values from created report and do comapre with calendar values</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>06dff856-2d42-4d0e-8ede-9bfbaf02ed07</testCaseGuid>
+   <variable>
+      <defaultValue>[:]</defaultValue>
+      <description></description>
+      <id>8703be25-6d53-48ec-b730-1bfd2104916b</id>
+      <masked>false</masked>
+      <name>SetUpListToGetData</name>
+   </variable>
+   <variable>
+      <defaultValue>[]</defaultValue>
+      <description></description>
+      <id>de8335d3-df3c-4aad-9ee8-37fb11e42142</id>
+      <masked>false</masked>
+      <name>DayWiseDates</name>
+   </variable>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>d6f88ee0-4a70-495a-a684-bed15ee2a86e</id>
+      <masked>false</masked>
+      <name>NoOfAddedColumns</name>
+   </variable>
+</TestCaseEntity>

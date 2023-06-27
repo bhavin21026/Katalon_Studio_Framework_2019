@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>setStartDate</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5c47aa00-9d02-43fc-af57-40b268a16db6</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>794bb8d6-66d6-407b-ab09-2db9d78eccd4</id>
+      <masked>false</masked>
+      <name>StartMonthYear</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ed5d9530-1d73-404b-9ea3-a620f3cb1278</id>
+      <masked>false</masked>
+      <name>StartDate</name>
+   </variable>
+</TestCaseEntity>

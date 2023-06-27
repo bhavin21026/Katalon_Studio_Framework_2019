@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC97_Verify all categories belongs toLabor Hours Group under Create Column section for Monthly Data Grain</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c41c9413-b611-4824-941e-c2d584e24218</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC50_Verify Edit and Delete button for particular column becomes disable when Add Column button clicked</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2f3a110d-c303-4a85-9d90-063c8d6f0efb</testCaseGuid>
+</TestCaseEntity>

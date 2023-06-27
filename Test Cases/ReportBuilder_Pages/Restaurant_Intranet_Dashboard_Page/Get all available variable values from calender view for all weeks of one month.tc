@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Get all available variable values from calender view for all weeks of one month</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7e13a45d-f806-40aa-bb06-b23b922fee26</testCaseGuid>
+</TestCaseEntity>

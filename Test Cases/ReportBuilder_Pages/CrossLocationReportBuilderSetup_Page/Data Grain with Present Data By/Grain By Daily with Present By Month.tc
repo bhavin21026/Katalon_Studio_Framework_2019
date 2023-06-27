@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Grain By Daily with Present By Month</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d5432c7b-a621-44e7-83c9-9df91d9724e9</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>210c0347-efcc-46ea-a10a-1d5434523ab8</id>
+      <masked>false</masked>
+      <name>NoOfMonths</name>
+   </variable>
+</TestCaseEntity>

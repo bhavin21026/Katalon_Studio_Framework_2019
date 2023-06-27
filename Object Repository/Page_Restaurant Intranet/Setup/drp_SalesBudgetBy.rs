@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>drp_SalesBudgetBy</name>
+   <tag></tag>
+   <elementGuidId>320dfab1-488c-4b91-a6c3-3cb52402d1e0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;main-field&quot;]/div/div/div/div[4]/div/table/tbody/tr[1]/td[2]/div/select</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;main-field&quot;]/div/div/div/div[4]/div/table/tbody/tr[1]/td[2]/div/select</value>
+   </webElementProperties>
+</WebElementEntity>

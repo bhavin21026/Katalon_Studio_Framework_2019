@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC63_Verify update column name functionality with Above-Below Value Rule selection</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b3c8dca4-0654-4d7b-a474-6d4010073286</testCaseGuid>
+   <variable>
+      <defaultValue>'Net Sales vs LY $ updated'</defaultValue>
+      <description></description>
+      <id>183ef02b-d77a-405f-ab86-0ebb37997ca8</id>
+      <masked>false</masked>
+      <name>updatedColumnName</name>
+   </variable>
+   <variable>
+      <defaultValue>'0'</defaultValue>
+      <description></description>
+      <id>4d620315-302f-496c-8989-28871203fb54</id>
+      <masked>false</masked>
+      <name>FromRange</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>4ff7f2b0-d78e-4cc8-9972-7b14929b99b4</id>
+      <masked>false</masked>
+      <name>WithinRange</name>
+   </variable>
+   <variable>
+      <defaultValue>'5'</defaultValue>
+      <description></description>
+      <id>4bbf9ff0-faa0-459f-a9c4-cade8e00a0a3</id>
+      <masked>false</masked>
+      <name>OutsideRange</name>
+   </variable>
+</TestCaseEntity>

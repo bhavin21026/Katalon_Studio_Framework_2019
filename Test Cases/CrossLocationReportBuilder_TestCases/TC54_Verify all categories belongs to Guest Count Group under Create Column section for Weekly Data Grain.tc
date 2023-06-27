@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC54_Verify all categories belongs to Guest Count Group under Create Column section for Weekly Data Grain</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c06d2596-1b4a-48ec-99de-6269a8f61e19</testCaseGuid>
+</TestCaseEntity>

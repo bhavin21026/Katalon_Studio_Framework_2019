@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_SalesBudgetPercent</name>
+   <tag></tag>
+   <elementGuidId>f73bc358-da63-45c5-843b-08f2ffb817c9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;main-field&quot;]/div/div/div[2]/div[1]/table/tbody/tr[1]/td[4]/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;main-field&quot;]/div/div/div[2]/div[1]/table/tbody/tr[1]/td[4]/input</value>
+   </webElementProperties>
+</WebElementEntity>

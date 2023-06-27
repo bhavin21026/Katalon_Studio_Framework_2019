@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC89_Verify all categories belongs to Gross Sales Group under Create Column section for Daily Data Grain</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>682ecfc7-4bb8-447f-8f76-fc8995105504</testCaseGuid>
+</TestCaseEntity>

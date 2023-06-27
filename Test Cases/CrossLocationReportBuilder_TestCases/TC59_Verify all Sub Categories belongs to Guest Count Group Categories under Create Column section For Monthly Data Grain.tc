@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC59_Verify all Sub Categories belongs to Guest Count Group Categories under Create Column section For Monthly Data Grain</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>eaa9040d-1243-4b19-b613-b9757ea5f345</testCaseGuid>
+</TestCaseEntity>

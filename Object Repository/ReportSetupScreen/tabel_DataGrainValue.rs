@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>tabel_DataGrainValue</name>
+   <tag></tag>
+   <elementGuidId>20542c90-1f68-4e2f-8667-70b2b0e2e42e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=\&quot;main-field\&quot;]/div/div/div/app-reports/div/app-report-list/div/table/tbody/tr/td[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=\&quot;main-field\&quot;]/div/div/div/app-reports/div/app-report-list/div/table/tbody/tr/td[3]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC68_Verify Limit no Weeks field with greater than between value</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>40dd4162-c706-4916-91c1-6253c71eefa8</testCaseGuid>
+   <variable>
+      <defaultValue>'20'</defaultValue>
+      <description></description>
+      <id>88b37b33-c6ce-4382-b65d-b4c03c16368a</id>
+      <masked>false</masked>
+      <name>Weeks</name>
+   </variable>
+</TestCaseEntity>

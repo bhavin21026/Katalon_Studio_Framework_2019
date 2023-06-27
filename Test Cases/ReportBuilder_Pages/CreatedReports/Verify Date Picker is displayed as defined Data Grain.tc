@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Date Picker is displayed as defined Data Grain</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f6c7cc56-b05b-4a81-8253-cee3ea2be2fd</testCaseGuid>
+</TestCaseEntity>

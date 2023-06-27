@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC82_ Verify calendar data with report data for daily present view</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ad671bde-7707-405a-ba7c-e39dd64d361f</testCaseGuid>
+</TestCaseEntity>

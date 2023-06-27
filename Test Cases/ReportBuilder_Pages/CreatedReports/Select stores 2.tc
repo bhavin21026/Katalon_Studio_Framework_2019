@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Select stores 2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>513a742d-59ca-4cfa-8b90-bc01bbd79418</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c76b49dc-078c-42d3-a168-9c24f2c26c06</id>
+      <masked>false</masked>
+      <name>StoreName</name>
+   </variable>
+</TestCaseEntity>

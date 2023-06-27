@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC80_To check that tabel values are coming or displayed as per actual formulas for weekly report</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bdbb766b-fc95-4a2d-95c3-e6f09a898a25</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC77_Verify Created Report is displaying same as per the set configuration in report setup</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>99088d96-87de-4977-bd8b-cee05bee4361</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>346f8615-2ca8-4c27-803d-79f021cfa5fb</id>
+      <masked>false</masked>
+      <name>ReportName</name>
+   </variable>
+</TestCaseEntity>

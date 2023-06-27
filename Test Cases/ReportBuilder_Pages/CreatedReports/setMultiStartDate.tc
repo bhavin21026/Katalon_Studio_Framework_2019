@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>setMultiStartDate</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>30270535-78b9-4217-be5b-9fcd7ebbd1bb</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>064be7f6-efb3-41f7-8110-f23390f07c3b</id>
+      <masked>false</masked>
+      <name>StartMonthYear</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e8f2fdee-2035-4fbe-aaf1-e3acbb0acc86</id>
+      <masked>false</masked>
+      <name>StartDate</name>
+   </variable>
+</TestCaseEntity>

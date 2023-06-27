@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC27_Verify all categories belongs to Guest Count Group under Create Column section for Daily Data Grain</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d497a2dc-4a9c-41c0-9356-dd0943a7954f</testCaseGuid>
+</TestCaseEntity>

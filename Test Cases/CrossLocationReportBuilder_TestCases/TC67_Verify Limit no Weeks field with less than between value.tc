@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC67_Verify Limit no Weeks field with less than between value</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d3f3425c-3cb7-4d2d-82b1-31995fc1c331</testCaseGuid>
+   <variable>
+      <defaultValue>'0'</defaultValue>
+      <description></description>
+      <id>a7a1702b-46bf-469d-aaf0-e54b4b9ea212</id>
+      <masked>false</masked>
+      <name>Weeks</name>
+   </variable>
+</TestCaseEntity>

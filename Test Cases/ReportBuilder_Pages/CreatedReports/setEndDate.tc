@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>setEndDate</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4e17bda0-f4f8-4508-a2ed-2148b484f704</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>80dc9535-71d5-4255-b451-d81a3c69382f</id>
+      <masked>false</masked>
+      <name>EndMonthYear</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>64fd3c59-fd65-4c33-87db-3e03fa88d84c</id>
+      <masked>false</masked>
+      <name>EndDate</name>
+   </variable>
+</TestCaseEntity>

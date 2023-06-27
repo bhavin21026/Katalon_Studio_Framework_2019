@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Date Picker is displayed as defined Data Grain -Multistore</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>366a8de8-bdbb-4d59-8528-10ddeb53aca3</testCaseGuid>
+</TestCaseEntity>

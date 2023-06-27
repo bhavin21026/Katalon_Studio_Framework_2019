@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC78_ONE STORE ONE WEEK-MONTH-YEAR-RANGE-To check that tabel values are coming or displayed as per actual formulas</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>06103cab-e144-4f40-be91-95859d2d4d8c</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Daily Report End to End Suit,Chrome 80.0.3987.149,,,2020-03-19 16:04:58,2020-03-19 16:18:58,14m - 0.719s,FAILED
+,,,,,,,
+Test Cases/CrossLocationReportBuilder_TestCases/TC8_Create Daily Report with valid details and compare report values with calender for specific time period,Chrome 80.0.3987.149,,,2020-03-19 16:05:38,2020-03-19 16:18:58,13m - 20.518s,FAILED
+"callTestCase(findTestCase(""CrossLocationReportBuilder_TestCases/TC1_Verify successfull login""), [:], CONTINUE_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-03-19 16:05:38,2020-03-19 16:06:16,37.435s,FAILED
+"callTestCase(findTestCase(""CrossLocationReportBuilder_TestCases/TC3_Verify Report Builder Link functionality""), [:], CONTINUE_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-03-19 16:06:16,2020-03-19 16:07:45,1m - 28.787s,FAILED
+"callTestCase(findTestCase(""ReportBuilder_Pages/ReportSetup_Page/Verify Add Report button and Click""), [:], CONTINUE_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-03-19 16:07:45,2020-03-19 16:08:58,1m - 13.094s,FAILED
+"callTestCase(findTestCase(""ReportBuilder_Pages/CrossLocationReportBuilderSetup_Page/Give Report Name""), [""ReportName"":ReportName], CONTINUE_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-03-19 16:08:58,2020-03-19 16:09:22,24.548s,FAILED
+"callTestCase(findTestCase(""ReportBuilder_Pages/CrossLocationReportBuilderSetup_Page/Select Report Category""), [""ReportCategory"":CategoryName], CONTINUE_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-03-19 16:09:22,2020-03-19 16:09:53,30.872s,FAILED
+"callTestCase(findTestCase(""ReportBuilder_Pages/CrossLocationReportBuilderSetup_Page/Data Grain with Present Data By/Select Data Grain And Present Data By options for Report""), [:], CONTINUE_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-03-19 16:09:53,2020-03-19 16:18:52,8m - 59.385s,FAILED
+ColumnListNew = [],Chrome 80.0.3987.149,,,2020-03-19 16:18:52,2020-03-19 16:18:52,0.000s,PASSED
+ColumnListNew = reportbuildercustom.RB_Keywords.verifyTotalAddedColumns(),Chrome 80.0.3987.149,,,2020-03-19 16:18:52,2020-03-19 16:18:58,6.044s,ERROR
+Start listener action : afterTestcase,Chrome 80.0.3987.149,,,2020-03-19 16:18:58,2020-03-19 16:18:58,0.000s,PASSED

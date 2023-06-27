@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC31_Verify all Sub Categories belongs to Net Sales Group Categories under Create Column section For Daily Data Grain</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a1becf3e-1116-4ce1-9c03-b877c569f8b8</testCaseGuid>
+</TestCaseEntity>

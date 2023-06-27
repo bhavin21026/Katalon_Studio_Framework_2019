@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Give Report Name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8061b44e-c693-43fb-9e9d-17a5796f0d66</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0b0d0851-60f6-44a7-b07a-e6db492bbae2</id>
+      <masked>false</masked>
+      <name>ReportName</name>
+   </variable>
+</TestCaseEntity>

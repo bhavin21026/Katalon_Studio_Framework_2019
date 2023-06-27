@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC12_Verify Create Report functionality with keeping Report Name field blank</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8e83eea6-6944-4e7c-a80f-0abca2ff466a</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.CategoryName</defaultValue>
+      <description></description>
+      <id>84a54e1d-984d-4b18-880d-23e8517165cf</id>
+      <masked>false</masked>
+      <name>CategoryName</name>
+   </variable>
+   <variable>
+      <defaultValue>'31'</defaultValue>
+      <description></description>
+      <id>14a8d0ef-ebe8-46c4-ae63-94e63feb2fa5</id>
+      <masked>false</masked>
+      <name>NoOfdays</name>
+   </variable>
+</TestCaseEntity>

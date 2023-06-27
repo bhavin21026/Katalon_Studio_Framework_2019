@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Select stores BK</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c361944c-e8af-4e2f-9488-6c88dd6c4fbf</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>292eede3-9e83-48b9-9b21-ce1039bfa8ba</id>
+      <masked>false</masked>
+      <name>StoreName</name>
+   </variable>
+</TestCaseEntity>

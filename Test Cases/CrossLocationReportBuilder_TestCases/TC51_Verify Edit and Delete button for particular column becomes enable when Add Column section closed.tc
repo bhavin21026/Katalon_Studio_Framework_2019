@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC51_Verify Edit and Delete button for particular column becomes enable when Add Column section closed</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e1424985-9b17-4efe-afd6-95553dd8fdc5</testCaseGuid>
+</TestCaseEntity>

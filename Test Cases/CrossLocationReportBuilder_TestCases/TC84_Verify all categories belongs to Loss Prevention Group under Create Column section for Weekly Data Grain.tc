@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC84_Verify all categories belongs to Loss Prevention Group under Create Column section for Weekly Data Grain</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f22a5458-80e8-4ef6-b9fa-3a05344a3be6</testCaseGuid>
+</TestCaseEntity>

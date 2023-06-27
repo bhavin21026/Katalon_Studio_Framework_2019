@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC20_Verify if Create Report button becomes enable when minimum one column is selected from list of availble column</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>986ddefa-43f0-4c1e-b1fc-d140c47e40f2</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,10 @@
+[0206/151041.396:ERROR:process_info.cc(329)] VirtualQueryEx: Access is denied. (0x5)
+[0206/151041.397:ERROR:process_info.cc(556)] ReadMemoryInfo failed
+[0206/151041.398:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0206/183618.670:ERROR:process_info.cc(329)] VirtualQueryEx: Access is denied. (0x5)
+[0206/183618.675:ERROR:process_info.cc(556)] ReadMemoryInfo failed
+[0206/183618.675:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0211/144501.025:ERROR:prune_crash_reports.cc(35)] PruneCrashReportDatabase: Failed to get pending reports
+[0304/131501.610:ERROR:process_info.cc(329)] VirtualQueryEx: Access is denied. (0x5)
+[0304/131501.612:ERROR:process_info.cc(556)] ReadMemoryInfo failed
+[0304/131501.613:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)

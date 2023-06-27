@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC34_Verify add column button functionality with selecting multiple columns together</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>edf010e5-c6fc-4697-a341-65470846985f</testCaseGuid>
+</TestCaseEntity>

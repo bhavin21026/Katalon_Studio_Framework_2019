@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Weekly Report End to End Suit" time="66.175" tests="1" failures="0" errors="0">
+   <testsuite name="Weekly Report End to End Suit" tests="1" failures="0" errors="0" time="66.175" timestamp="2020-03-30 18:28:49" hostname="bksangani - aixahm-ts6.analytix.local" id="Test Suites/Weekly Report End to End Suit">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Users\\bksangani\\Katalon Studio\\ReportBuilderV1\\Reports\\20200330_182846\\Weekly Report End to End Suit\\20200330_182846"/>
+         <property name="logFiles" value="D:\\Users\\bksangani\\Katalon Studio\\ReportBuilderV1\\Reports\\20200330_182846\\Weekly Report End to End Suit\\20200330_182846\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="bksangani - aixahm-ts6.analytix.local"/>
+         <property name="os" value="Windows Server 2016 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Chrome 80.0.3987.149"/>
+         <property name="hostAddress" value="192.168.16.190"/>
+         <property name="sessionId" value="f4a9cb5ba34d69c2223c28d8fac158ee"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=USE_SYSTEM, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows Server 2016"/>
+      </properties>
+      <testcase name="Test Cases/CrossLocationReportBuilder_TestCases/TC79_Create Weekly Report with valid details and compare report values with calender for specific time period" time="41.222" classname="Test Cases/CrossLocationReportBuilder_TestCases/TC79_Create Weekly Report with valid details and compare report values with calender for specific time period" status="PASSED">
+         <system-out><![CDATA[2020-03-30 18:29:08 - [TEST_CASE][PASSED] - Test Cases/CrossLocationReportBuilder_TestCases/TC79_Create Weekly Report with valid details and compare report values with calender for specific time period: Test Cases/CrossLocationReportBuilder_TestCases/TC79_Create Weekly Report with valid details and compare report values with calender for specific time period
+
+2020-03-30 18:29:49 - [TEST_STEP][PASSED] - Start listener action : afterTestcase: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-03-30 18:28:49 - [TEST_SUITE][PASSED] - Weekly Report End to End Suit: Test Cases/CrossLocationReportBuilder_TestCases/TC79_Create Weekly Report with valid details and compare report values with calender for specific time period]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

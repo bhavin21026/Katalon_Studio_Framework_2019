@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC14_Verify Create Report functionality with keeping only Limit No OF Days field blank</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>77b3d918-1d77-484e-9000-e1bf986d041c</testCaseGuid>
+   <variable>
+      <defaultValue>'BKS Report1'</defaultValue>
+      <description></description>
+      <id>4e45ca19-79ff-4ec4-b3ca-043a967cf182</id>
+      <masked>false</masked>
+      <name>NameOfReport</name>
+   </variable>
+</TestCaseEntity>

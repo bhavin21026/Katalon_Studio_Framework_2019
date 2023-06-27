@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Grain By Daily with Present By Day</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a2af7645-8abf-43c1-a859-5af09ff7ad40</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8773feaa-c89e-4873-b458-bb9b94e14370</id>
+      <masked>false</masked>
+      <name>NoOfdays</name>
+   </variable>
+</TestCaseEntity>

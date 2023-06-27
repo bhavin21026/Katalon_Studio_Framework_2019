@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC91_Verify all categories belongs to Gross Sales Group under Create Column section for Monthly Data Grain</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dd9e56af-5522-4c33-876c-f44d183fa496</testCaseGuid>
+</TestCaseEntity>

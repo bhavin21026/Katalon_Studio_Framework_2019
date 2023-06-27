@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC35_Verify that already added column(s) should display as a selected or checked in dropdown</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>acbe939e-f2d2-44f4-a301-936ce7ee3eb1</testCaseGuid>
+</TestCaseEntity>

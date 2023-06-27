@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC22_Verify Cancel button functionality when atleast one column is selected under Create Column section</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2c24cdd0-eabc-48d4-b614-cf77630778cd</testCaseGuid>
+</TestCaseEntity>

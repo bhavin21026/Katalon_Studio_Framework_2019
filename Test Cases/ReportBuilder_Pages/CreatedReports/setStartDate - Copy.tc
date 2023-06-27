@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>setStartDate - Copy</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4aba8755-6e73-4d81-9a2f-a6714248c9e6</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6a8a71fc-cf19-4970-a3f3-8cfcf4ce9892</id>
+      <masked>false</masked>
+      <name>StartMonthYear</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5cbef863-5a6e-487f-90de-398b0f826c60</id>
+      <masked>false</masked>
+      <name>StartDate</name>
+   </variable>
+</TestCaseEntity>

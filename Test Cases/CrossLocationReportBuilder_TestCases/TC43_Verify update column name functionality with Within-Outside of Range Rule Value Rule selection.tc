@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC43_Verify update column name functionality with Within-Outside of Range Rule Value Rule selection</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>af07b5cd-8a60-44a4-be5a-b6b0f3cb4221</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC75_Verify all Sub Categories belongs to Labor Cost Group Categories under Create Column section For Weekly Data Grain</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d5f9bbe5-1257-4e1e-9ecb-5592c66b1880</testCaseGuid>
+</TestCaseEntity>

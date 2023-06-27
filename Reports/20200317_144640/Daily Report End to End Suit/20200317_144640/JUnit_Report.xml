@@ -1,0 +1,1251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Daily Report End to End Suit" time="81.921" tests="1" failures="1" errors="0">
+   <testsuite name="Daily Report End to End Suit" tests="1" failures="1" errors="0" time="81.921" timestamp="2020-03-17 14:46:45" hostname="bksangani - aixahm-ts6.analytix.local" id="Test Suites/Daily Report End to End Suit">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Users\\bksangani\\Katalon Studio\\ReportBuilderV1\\Reports\\20200317_144640\\Daily Report End to End Suit\\20200317_144640"/>
+         <property name="logFiles" value="D:\\Users\\bksangani\\Katalon Studio\\ReportBuilderV1\\Reports\\20200317_144640\\Daily Report End to End Suit\\20200317_144640\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="bksangani - aixahm-ts6.analytix.local"/>
+         <property name="os" value="Windows Server 2016 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Chrome 80.0.3987.132"/>
+         <property name="hostAddress" value="192.168.16.190"/>
+         <property name="sessionId" value="b7dba875b9d9f6aac6e5d92680601dd4"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows Server 2016"/>
+      </properties>
+      <testcase name="Test Cases/CrossLocationReportBuilder_TestCases/TC8_Create Daily Report with valid details and compare report values with calender for specific time period" time="57.054" classname="Test Cases/CrossLocationReportBuilder_TestCases/TC8_Create Daily Report with valid details and compare report values with calender for specific time period" status="FAILED">
+         <failure type="FAILED" message="Test Cases/CrossLocationReportBuilder_TestCases/TC8_Create Daily Report with valid details and compare report values with calender for specific time period FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to call Test Case 'Test Cases/ReportBuilder_Pages/CreatedReports/Verify Dates on report based on selected present data by' (Root cause: com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/ReportBuilder_Pages/CreatedReports/Verify Dates on report based on selected present data by' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC8_Create Daily Report with valid details and compare report values with calender for specific time period.run(TC8_Create Daily Report with valid details and compare report values with calender for specific time period:75)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584436600739.run(TempTestSuite1584436600739.groovy:36)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 1
+	at Verify Dates on report based on selected present data by.run(Verify Dates on report based on selected present data by:82)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:70)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC8_Create Daily Report with valid details and compare report values with calender for specific time period.run(TC8_Create Daily Report with valid details and compare report values with calender for specific time period:75)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584436600739.run(TempTestSuite1584436600739.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/ReportBuilder_Pages/CreatedReports/Verify Dates on report based on selected present data by' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	... 18 more
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 1
+	at Verify Dates on report based on selected present data by.run(Verify Dates on report based on selected present data by:82)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+"/>
+         <system-out><![CDATA[2020-03-17 14:47:03 - [TEST_CASE][FAILED] - Test Cases/CrossLocationReportBuilder_TestCases/TC8_Create Daily Report with valid details and compare report values with calender for specific time period: Test Cases/CrossLocationReportBuilder_TestCases/TC8_Create Daily Report with valid details and compare report values with calender for specific time period FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to call Test Case 'Test Cases/ReportBuilder_Pages/CreatedReports/Verify Dates on report based on selected present data by' (Root cause: com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/ReportBuilder_Pages/CreatedReports/Verify Dates on report based on selected present data by' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC8_Create Daily Report with valid details and compare report values with calender for specific time period.run(TC8_Create Daily Report with valid details and compare report values with calender for specific time period:75)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584436600739.run(TempTestSuite1584436600739.groovy:36)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 1
+	at Verify Dates on report based on selected present data by.run(Verify Dates on report based on selected present data by:82)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:70)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC8_Create Daily Report with valid details and compare report values with calender for specific time period.run(TC8_Create Daily Report with valid details and compare report values with calender for specific time period:75)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584436600739.run(TempTestSuite1584436600739.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/ReportBuilder_Pages/CreatedReports/Verify Dates on report based on selected present data by' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	... 18 more
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 1
+	at Verify Dates on report based on selected present data by.run(Verify Dates on report based on selected present data by:82)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+
+
+2020-03-17 14:47:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CrossLocationReportBuilder_TestCases/TC1_Verify successfull login"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/CrossLocationReportBuilder_TestCases/TC1_Verify successfull login' successfully
+
+2020-03-17 14:47:03 - [TEST_CASE][PASSED] - Test Cases/CrossLocationReportBuilder_TestCases/TC1_Verify successfull login: Test Cases/CrossLocationReportBuilder_TestCases/TC1_Verify successfull login
+
+2020-03-17 14:47:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("ReportBuilder_Pages/LoginPage/Login with encrypted username and password"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/ReportBuilder_Pages/LoginPage/Login with encrypted username and password' successfully
+
+2020-03-17 14:47:04 - [TEST_CASE][PASSED] - Test Cases/ReportBuilder_Pages/LoginPage/Login with encrypted username and password: Test Cases/ReportBuilder_Pages/LoginPage/Login with encrypted username and password
+
+2020-03-17 14:47:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Dunkin Donuts - Executive Dashboard/input_Login_textBoxEmailAddress"), username): Text 'Cafua_Dev@analytix.com' is set on object 'Object Repository/Page_Dunkin Donuts - Executive Dashboard/input_Login_textBoxEmailAddress'
+
+2020-03-17 14:47:05 - [MESSAGE][PASSED] - Text 'Cafua_Dev@analytix.com' is set on object 'Object Repository/Page_Dunkin Donuts - Executive Dashboard/input_Login_textBoxEmailAddress'
+
+2020-03-17 14:47:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Dunkin Donuts - Executive Dashboard/input_Login_textBoxPassword"), password): Text '!9TgLT8dK3' is set on object 'Object Repository/Page_Dunkin Donuts - Executive Dashboard/input_Login_textBoxPassword'
+
+2020-03-17 14:47:05 - [MESSAGE][PASSED] - Text '!9TgLT8dK3' is set on object 'Object Repository/Page_Dunkin Donuts - Executive Dashboard/input_Login_textBoxPassword'
+
+2020-03-17 14:47:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dunkin Donuts - Executive Dashboard/input_Login_buttonLogin")): Object: 'Object Repository/Page_Dunkin Donuts - Executive Dashboard/input_Login_buttonLogin' is clicked on
+
+2020-03-17 14:47:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dunkin Donuts - Executive Dashboard/input_Login_buttonLogin' is clicked on
+
+2020-03-17 14:47:06 - [TEST_STEP][NOT_RUN] - waitForElementClickable(findTestObject("Page_Restaurant Intranet/link_ProfileIcon"), ExplicitWait): NOT_RUN: waitForElementClickable(findTestObject("Page_Restaurant Intranet/link_ProfileIcon"), ExplicitWait)
+
+2020-03-17 14:47:06 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementClickable(findTestObject("Page_Restaurant Intranet/link_ProfileIcon"), ExplicitWait)
+
+2020-03-17 14:47:06 - [TEST_STEP][NOT_RUN] - verifyElementVisible(findTestObject("Page_Restaurant Intranet/link_ProfileIcon")): NOT_RUN: verifyElementVisible(findTestObject("Page_Restaurant Intranet/link_ProfileIcon"))
+
+2020-03-17 14:47:06 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementVisible(findTestObject("Page_Restaurant Intranet/link_ProfileIcon"))
+
+2020-03-17 14:47:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ReportBuilder_Pages/LoginPage/Login with encrypted username and password' successfully
+
+2020-03-17 14:47:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CrossLocationReportBuilder_TestCases/TC1_Verify successfull login' successfully
+
+2020-03-17 14:47:06 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("CrossLocationReportBuilder_TestCases/TC3_Verify Report Builder Link functionality"), [:], CONTINUE_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("CrossLocationReportBuilder_TestCases/TC3_Verify Report Builder Link functionality"), [:], CONTINUE_ON_FAILURE)
+
+2020-03-17 14:47:06 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("CrossLocationReportBuilder_TestCases/TC3_Verify Report Builder Link functionality"), [:], CONTINUE_ON_FAILURE)
+
+2020-03-17 14:47:06 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("ReportBuilder_Pages/ReportSetup_Page/Verify Add Report button and Click"), [:], CONTINUE_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("ReportBuilder_Pages/ReportSetup_Page/Verify Add Report button and Click"), [:], CONTINUE_ON_FAILURE)
+
+2020-03-17 14:47:06 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("ReportBuilder_Pages/ReportSetup_Page/Verify Add Report button and Click"), [:], CONTINUE_ON_FAILURE)
+
+2020-03-17 14:47:06 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("ReportBuilder_Pages/CrossLocationReportBuilderSetup_Page/Give Report Name"), ["ReportName":ReportName], CONTINUE_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("ReportBuilder_Pages/CrossLocationReportBuilderSetup_Page/Give Report Name"), ["ReportName":ReportName], CONTINUE_ON_FAILURE)
+
+2020-03-17 14:47:06 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("ReportBuilder_Pages/CrossLocationReportBuilderSetup_Page/Give Report Name"), ["ReportName":ReportName], CONTINUE_ON_FAILURE)
+
+2020-03-17 14:47:06 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("ReportBuilder_Pages/CrossLocationReportBuilderSetup_Page/Select Report Category"), ["ReportCategory":CategoryName], CONTINUE_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("ReportBuilder_Pages/CrossLocationReportBuilderSetup_Page/Select Report Category"), ["ReportCategory":CategoryName], CONTINUE_ON_FAILURE)
+
+2020-03-17 14:47:06 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("ReportBuilder_Pages/CrossLocationReportBuilderSetup_Page/Select Report Category"), ["ReportCategory":CategoryName], CONTINUE_ON_FAILURE)
+
+2020-03-17 14:47:06 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("ReportBuilder_Pages/CrossLocationReportBuilderSetup_Page/Data Grain with Present Data By/Select Data Grain And Present Data By options for Report"), [:], CONTINUE_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("ReportBuilder_Pages/CrossLocationReportBuilderSetup_Page/Data Grain with Present Data By/Select Data Grain And Present Data By options for Report"), [:], CONTINUE_ON_FAILURE)
+
+2020-03-17 14:47:06 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("ReportBuilder_Pages/CrossLocationReportBuilderSetup_Page/Data Grain with Present Data By/Select Data Grain And Present Data By options for Report"), [:], CONTINUE_ON_FAILURE)
+
+2020-03-17 14:47:06 - [TEST_STEP][NOT_RUN] - ColumnListNew = []: NOT_RUN: ColumnListNew = []
+
+2020-03-17 14:47:06 - [MESSAGE][NOT_RUN] - NOT_RUN: ColumnListNew = []
+
+2020-03-17 14:47:06 - [TEST_STEP][NOT_RUN] - ColumnListNew = reportbuildercustom.RB_Keywords.verifyTotalAddedColumns(): NOT_RUN: ColumnListNew = reportbuildercustom.RB_Keywords.verifyTotalAddedColumns()
+
+2020-03-17 14:47:06 - [MESSAGE][NOT_RUN] - NOT_RUN: ColumnListNew = reportbuildercustom.RB_Keywords.verifyTotalAddedColumns()
+
+2020-03-17 14:47:06 - [TEST_STEP][NOT_RUN] - TotalNoOfColumnsAdded = ColumnListNew.size(): NOT_RUN: TotalNoOfColumnsAdded = ColumnListNew.size()
+
+2020-03-17 14:47:06 - [MESSAGE][NOT_RUN] - NOT_RUN: TotalNoOfColumnsAdded = ColumnListNew.size()
+
+2020-03-17 14:47:06 - [TEST_STEP][NOT_RUN] - println(TotalNoOfColumnsAdded): NOT_RUN: println(TotalNoOfColumnsAdded)
+
+2020-03-17 14:47:06 - [MESSAGE][NOT_RUN] - NOT_RUN: println(TotalNoOfColumnsAdded)
+
+2020-03-17 14:47:06 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("ReportBuilder_Pages/CrossLocationReportBuilderSetup_Page/Select Grouping By Hierarchy"), [:], CONTINUE_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("ReportBuilder_Pages/CrossLocationReportBuilderSetup_Page/Select Grouping By Hierarchy"), [:], CONTINUE_ON_FAILURE)
+
+2020-03-17 14:47:06 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("ReportBuilder_Pages/CrossLocationReportBuilderSetup_Page/Select Grouping By Hierarchy"), [:], CONTINUE_ON_FAILURE)
+
+2020-03-17 14:47:06 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("ReportBuilder_Pages/CrossLocationReportBuilderSetup_Page/Click on Create Report Button"), [:], CONTINUE_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("ReportBuilder_Pages/CrossLocationReportBuilderSetup_Page/Click on Create Report Button"), [:], CONTINUE_ON_FAILURE)
+
+2020-03-17 14:47:06 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("ReportBuilder_Pages/CrossLocationReportBuilderSetup_Page/Click on Create Report Button"), [:], CONTINUE_ON_FAILURE)
+
+2020-03-17 14:47:06 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("ReportBuilder_Pages/CrossLocationReportBuilderSetup_Page/Search and validate created report from list of reports"), ["SearchCategory":CategoryName, "SearchReport":ReportName], CONTINUE_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("ReportBuilder_Pages/CrossLocationReportBuilderSetup_Page/Search and validate created report from list of reports"), ["SearchCategory":CategoryName, "SearchReport":ReportName], CONTINUE_ON_FAILURE)
+
+2020-03-17 14:47:06 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("ReportBuilder_Pages/CrossLocationReportBuilderSetup_Page/Search and validate created report from list of reports"), ["SearchCategory":CategoryName, "SearchReport":ReportName], CONTINUE_ON_FAILURE)
+
+2020-03-17 14:47:06 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("ReportBuilder_Pages/Restaurant_Intranet_Dashboard_Page/Click on Dashboard Link"), [:], CONTINUE_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("ReportBuilder_Pages/Restaurant_Intranet_Dashboard_Page/Click on Dashboard Link"), [:], CONTINUE_ON_FAILURE)
+
+2020-03-17 14:47:06 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("ReportBuilder_Pages/Restaurant_Intranet_Dashboard_Page/Click on Dashboard Link"), [:], CONTINUE_ON_FAILURE)
+
+2020-03-17 14:47:06 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("ReportBuilder_Pages/Restaurant_Intranet_Dashboard_Page/Select PC name"), ["PCName":PCName], CONTINUE_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("ReportBuilder_Pages/Restaurant_Intranet_Dashboard_Page/Select PC name"), ["PCName":PCName], CONTINUE_ON_FAILURE)
+
+2020-03-17 14:47:06 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("ReportBuilder_Pages/Restaurant_Intranet_Dashboard_Page/Select PC name"), ["PCName":PCName], CONTINUE_ON_FAILURE)
+
+2020-03-17 14:47:06 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("ReportBuilder_Pages/Restaurant_Intranet_Dashboard_Page/Click on dashbord calender button and select operational calender"), [:], CONTINUE_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("ReportBuilder_Pages/Restaurant_Intranet_Dashboard_Page/Click on dashbord calender button and select operational calender"), [:], CONTINUE_ON_FAILURE)
+
+2020-03-17 14:47:06 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("ReportBuilder_Pages/Restaurant_Intranet_Dashboard_Page/Click on dashbord calender button and select operational calender"), [:], CONTINUE_ON_FAILURE)
+
+2020-03-17 14:47:06 - [TEST_STEP][NOT_RUN] - valuesFromCalendarDashboard = [:]: NOT_RUN: valuesFromCalendarDashboard = [:]
+
+2020-03-17 14:47:06 - [MESSAGE][NOT_RUN] - NOT_RUN: valuesFromCalendarDashboard = [:]
+
+2020-03-17 14:47:06 - [TEST_STEP][NOT_RUN] - valuesFromCalendarDashboard = callTestCase(findTestCase("ReportBuilder_Pages/Restaurant_Intranet_Dashboard_Page/Get all available variable values from calender view for one month"), [:], CONTINUE_ON_FAILURE): NOT_RUN: valuesFromCalendarDashboard = callTestCase(findTestCase("ReportBuilder_Pages/Restaurant_Intranet_Dashboard_Page/Get all available variable values from calender view for one month"), [:], CONTINUE_ON_FAILURE)
+
+2020-03-17 14:47:06 - [MESSAGE][NOT_RUN] - NOT_RUN: valuesFromCalendarDashboard = callTestCase(findTestCase("ReportBuilder_Pages/Restaurant_Intranet_Dashboard_Page/Get all available variable values from calender view for one month"), [:], CONTINUE_ON_FAILURE)
+
+2020-03-17 14:47:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CrossLocationReportBuilder_TestCases/TC77_Verify Created Report is displaying same as per the set configuration in report setup"), ["ReportName":ReportName], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/CrossLocationReportBuilder_TestCases/TC77_Verify Created Report is displaying same as per the set configuration in report setup' successfully
+
+2020-03-17 14:47:06 - [TEST_CASE][PASSED] - Test Cases/CrossLocationReportBuilder_TestCases/TC77_Verify Created Report is displaying same as per the set configuration in report setup: Test Cases/CrossLocationReportBuilder_TestCases/TC77_Verify Created Report is displaying same as per the set configuration in report setup
+
+2020-03-17 14:47:06 - [TEST_STEP][NOT_RUN] - refresh(): NOT_RUN: refresh()
+
+2020-03-17 14:47:06 - [MESSAGE][NOT_RUN] - NOT_RUN: refresh()
+
+2020-03-17 14:47:06 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Page_Restaurant Intranet/Left_Nav_Bar/link_CrossLocationReportIcon")): Object: 'Object Repository/Page_Restaurant Intranet/Left_Nav_Bar/link_CrossLocationReportIcon' is hovered
+
+2020-03-17 14:47:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Restaurant Intranet/Left_Nav_Bar/link_CrossLocationReportIcon' is hovered
+
+2020-03-17 14:47:17 - [TEST_STEP][PASSED] - reportbuildercustom.RB_Keywords.clickOnReportCategory(CategoryName): reportbuildercustom.RB_Keywords.clickOnReportCategory is PASSED
+
+2020-03-17 14:47:18 - [MESSAGE][PASSED] - Object 'CreatedColumns' is visible
+
+2020-03-17 14:47:18 - [MESSAGE][PASSED] - Object 'CreatedColumns' is visible
+
+2020-03-17 14:47:19 - [MESSAGE][PASSED] - Object: 'CreatedColumns' is clicked on
+
+2020-03-17 14:47:19 - [MESSAGE][PASSED] - reportbuildercustom.RB_Keywords.clickOnReportCategory is PASSED
+
+2020-03-17 14:47:19 - [TEST_STEP][PASSED] - reportbuildercustom.RB_Keywords.clickAndVerifyCreatedReport(ReportName): reportbuildercustom.RB_Keywords.clickAndVerifyCreatedReport is PASSED
+
+2020-03-17 14:47:19 - [MESSAGE][PASSED] - Object 'CreatedColumns' is visible
+
+2020-03-17 14:47:19 - [MESSAGE][PASSED] - Object 'CreatedColumns' is visible
+
+2020-03-17 14:47:20 - [MESSAGE][PASSED] - Object: 'CreatedColumns' is clicked on
+
+2020-03-17 14:47:20 - [MESSAGE][PASSED] - reportbuildercustom.RB_Keywords.clickAndVerifyCreatedReport is PASSED
+
+2020-03-17 14:47:20 - [TEST_STEP][PASSED] - title = getText(findTestObject("Created Reports Objects/ReportTitle"), CONTINUE_ON_FAILURE): Text of object 'Object Repository/Created Reports Objects/ReportTitle' is: 'Daily Sales'
+
+2020-03-17 14:47:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/Created Reports Objects/ReportTitle' is: 'Daily Sales'
+
+2020-03-17 14:47:23 - [TEST_STEP][PASSED] - if (title.equalsIgnoreCase(ReportName)): null
+
+2020-03-17 14:47:23 - [TEST_STEP][PASSED] - assert true: null
+
+2020-03-17 14:47:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CrossLocationReportBuilder_TestCases/TC77_Verify Created Report is displaying same as per the set configuration in report setup' successfully
+
+2020-03-17 14:47:23 - [TEST_STEP][PASSED] - callTestCase(findTestCase("ReportBuilder_Pages/CreatedReports/Verify Date Picker is displayed as defined Data Grain - Copy"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/ReportBuilder_Pages/CreatedReports/Verify Date Picker is displayed as defined Data Grain - Copy' successfully
+
+2020-03-17 14:47:23 - [TEST_CASE][PASSED] - Test Cases/ReportBuilder_Pages/CreatedReports/Verify Date Picker is displayed as defined Data Grain - Copy: Test Cases/ReportBuilder_Pages/CreatedReports/Verify Date Picker is displayed as defined Data Grain - Copy
+
+2020-03-17 14:47:23 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Created Reports Objects/StartDate"), 0): Object 'Object Repository/Created Reports Objects/StartDate' is present
+
+2020-03-17 14:47:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-17 14:47:23 - [MESSAGE][PASSED] - Object 'Object Repository/Created Reports Objects/StartDate' is present
+
+2020-03-17 14:47:23 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Created Reports Objects/EndDate"), 0): Object 'Object Repository/Created Reports Objects/EndDate' is present
+
+2020-03-17 14:47:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-03-17 14:47:24 - [MESSAGE][PASSED] - Object 'Object Repository/Created Reports Objects/EndDate' is present
+
+2020-03-17 14:47:24 - [TEST_STEP][PASSED] - StartDate = getText(findTestObject("Created Reports Objects/StartDate")): Text of object 'Object Repository/Created Reports Objects/StartDate' is: 'Start Date:'
+
+2020-03-17 14:47:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/Created Reports Objects/StartDate' is: 'Start Date:'
+
+2020-03-17 14:47:24 - [TEST_STEP][PASSED] - EndDate = getText(findTestObject("Created Reports Objects/EndDate")): Text of object 'Object Repository/Created Reports Objects/EndDate' is: 'End Date:'
+
+2020-03-17 14:47:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/Created Reports Objects/EndDate' is: 'End Date:'
+
+2020-03-17 14:47:24 - [TEST_STEP][PASSED] - presentBy = PresentBy: null
+
+2020-03-17 14:47:24 - [TEST_STEP][PASSED] - if (presentBy.equalsIgnoreCase("Day")): null
+
+2020-03-17 14:47:24 - [TEST_STEP][PASSED] - if (StartDate.equalsIgnoreCase("Start Date:") && EndDate.equalsIgnoreCase("End Date:")): null
+
+2020-03-17 14:47:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("ReportBuilder_Pages/CreatedReports/setStartDate - Copy"), ["StartMonthYear":stCalStartMonthYear, "StartDate":stCalStartDate], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/ReportBuilder_Pages/CreatedReports/setStartDate - Copy' successfully
+
+2020-03-17 14:47:25 - [TEST_CASE][PASSED] - Test Cases/ReportBuilder_Pages/CreatedReports/setStartDate - Copy: Test Cases/ReportBuilder_Pages/CreatedReports/setStartDate - Copy
+
+2020-03-17 14:47:25 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("ReportBuilderUI/StartDatePicker"), 5): Object 'Object Repository/ReportBuilderUI/StartDatePicker' is clickable
+
+2020-03-17 14:47:25 - [MESSAGE][PASSED] - Object 'Object Repository/ReportBuilderUI/StartDatePicker' is clickable
+
+2020-03-17 14:47:25 - [TEST_STEP][PASSED] - click(findTestObject("ReportBuilderUI/StartDatePicker")): Object: 'Object Repository/ReportBuilderUI/StartDatePicker' is clicked on
+
+2020-03-17 14:47:26 - [MESSAGE][PASSED] - Object: 'Object Repository/ReportBuilderUI/StartDatePicker' is clicked on
+
+2020-03-17 14:47:26 - [TEST_STEP][PASSED] - monthYear = StartMonthYear: null
+
+2020-03-17 14:47:26 - [TEST_STEP][PASSED] - while (!(getText(findTestObject("ReportBuilderUI/MonthValue")).equalsIgnoreCase(monthYear))): null
+
+2020-03-17 14:47:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/ReportBuilderUI/MonthValue' is: 'Mar, 2020'
+
+2020-03-17 14:47:26 - [TEST_STEP][PASSED] - click(findTestObject("ReportBuilderUI/cld_backbtn")): Text of object 'Object Repository/ReportBuilderUI/MonthValue' is: 'Feb, 2020'
+
+2020-03-17 14:47:27 - [MESSAGE][PASSED] - Object: 'Object Repository/ReportBuilderUI/cld_backbtn' is clicked on
+
+2020-03-17 14:47:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/ReportBuilderUI/MonthValue' is: 'Feb, 2020'
+
+2020-03-17 14:47:27 - [TEST_STEP][PASSED] - click(findTestObject("ReportBuilderUI/cld_backbtn")): Text of object 'Object Repository/ReportBuilderUI/MonthValue' is: 'Jan, 2020'
+
+2020-03-17 14:47:28 - [MESSAGE][PASSED] - Object: 'Object Repository/ReportBuilderUI/cld_backbtn' is clicked on
+
+2020-03-17 14:47:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/ReportBuilderUI/MonthValue' is: 'Jan, 2020'
+
+2020-03-17 14:47:28 - [TEST_STEP][PASSED] - click(findTestObject("ReportBuilderUI/cld_backbtn")): Text of object 'Object Repository/ReportBuilderUI/MonthValue' is: 'Dec, 2019'
+
+2020-03-17 14:47:29 - [MESSAGE][PASSED] - Object: 'Object Repository/ReportBuilderUI/cld_backbtn' is clicked on
+
+2020-03-17 14:47:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/ReportBuilderUI/MonthValue' is: 'Dec, 2019'
+
+2020-03-17 14:47:29 - [TEST_STEP][PASSED] - click(findTestObject("ReportBuilderUI/cld_backbtn")): Text of object 'Object Repository/ReportBuilderUI/MonthValue' is: 'Nov, 2019'
+
+2020-03-17 14:47:29 - [MESSAGE][PASSED] - Object: 'Object Repository/ReportBuilderUI/cld_backbtn' is clicked on
+
+2020-03-17 14:47:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/ReportBuilderUI/MonthValue' is: 'Nov, 2019'
+
+2020-03-17 14:47:30 - [TEST_STEP][PASSED] - click(findTestObject("ReportBuilderUI/cld_backbtn")): Text of object 'Object Repository/ReportBuilderUI/MonthValue' is: 'Oct, 2019'
+
+2020-03-17 14:47:30 - [MESSAGE][PASSED] - Object: 'Object Repository/ReportBuilderUI/cld_backbtn' is clicked on
+
+2020-03-17 14:47:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/ReportBuilderUI/MonthValue' is: 'Oct, 2019'
+
+2020-03-17 14:47:31 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-03-17 14:47:31 - [TEST_STEP][PASSED] - picker = driver.findElement(By.xpath("(//div[@class='dp-calendar-wrapper'])[1]")): null
+
+2020-03-17 14:47:31 - [TEST_STEP][PASSED] - Days = picker.findElements(By.tagName("div")): null
+
+2020-03-17 14:47:31 - [TEST_STEP][PASSED] - totalelementsfind = Days.size(): null
+
+2020-03-17 14:47:31 - [TEST_STEP][PASSED] - flag = 0: null
+
+2020-03-17 14:47:31 - [TEST_STEP][PASSED] - for ([i = 1, i < totalelementsfind, (i++)]): null
+
+2020-03-17 14:47:31 - [TEST_STEP][PASSED] - Days1 = get(i).findElements(By.xpath("//button[@class='dp-calendar-day dp-current-month']")): null
+
+2020-03-17 14:47:32 - [TEST_STEP][PASSED] - totalelementsfind1 = Days1.size(): null
+
+2020-03-17 14:47:32 - [TEST_STEP][PASSED] - for ([j = 0, j < totalelementsfind1, (j++)]): null
+
+2020-03-17 14:47:32 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:32 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(StartDate)): null
+
+2020-03-17 14:47:32 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:32 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(StartDate)): null
+
+2020-03-17 14:47:32 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:32 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(StartDate)): null
+
+2020-03-17 14:47:32 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:32 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(StartDate)): null
+
+2020-03-17 14:47:32 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:32 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(StartDate)): null
+
+2020-03-17 14:47:32 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:32 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(StartDate)): null
+
+2020-03-17 14:47:32 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:32 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(StartDate)): null
+
+2020-03-17 14:47:32 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:32 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(StartDate)): null
+
+2020-03-17 14:47:32 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:32 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(StartDate)): null
+
+2020-03-17 14:47:32 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:32 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(StartDate)): null
+
+2020-03-17 14:47:32 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:32 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(StartDate)): null
+
+2020-03-17 14:47:32 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:32 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(StartDate)): null
+
+2020-03-17 14:47:32 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:32 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(StartDate)): null
+
+2020-03-17 14:47:32 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:32 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(StartDate)): null
+
+2020-03-17 14:47:32 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:32 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(StartDate)): null
+
+2020-03-17 14:47:32 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:32 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(StartDate)): null
+
+2020-03-17 14:47:32 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:32 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(StartDate)): null
+
+2020-03-17 14:47:32 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:32 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(StartDate)): null
+
+2020-03-17 14:47:32 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:32 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(StartDate)): null
+
+2020-03-17 14:47:32 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:32 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(StartDate)): null
+
+2020-03-17 14:47:32 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:32 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(StartDate)): null
+
+2020-03-17 14:47:32 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:32 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(StartDate)): null
+
+2020-03-17 14:47:32 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:32 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(StartDate)): null
+
+2020-03-17 14:47:32 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:32 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(StartDate)): null
+
+2020-03-17 14:47:32 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:32 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(StartDate)): null
+
+2020-03-17 14:47:32 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:33 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(StartDate)): null
+
+2020-03-17 14:47:33 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:33 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(StartDate)): null
+
+2020-03-17 14:47:33 - [TEST_STEP][PASSED] - get(j).click(): null
+
+2020-03-17 14:47:33 - [TEST_STEP][PASSED] - flag = 1: null
+
+2020-03-17 14:47:33 - [TEST_STEP][PASSED] - break: null
+
+2020-03-17 14:47:33 - [TEST_STEP][PASSED] - if (flag == 1): null
+
+2020-03-17 14:47:33 - [TEST_STEP][PASSED] - break: null
+
+2020-03-17 14:47:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ReportBuilder_Pages/CreatedReports/setStartDate - Copy' successfully
+
+2020-03-17 14:47:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("ReportBuilder_Pages/CreatedReports/setEndDate - Copy"), ["EndMonthYear":stCalEndMonthYear, "EndDate":stCalEndDate], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/ReportBuilder_Pages/CreatedReports/setEndDate - Copy' successfully
+
+2020-03-17 14:47:33 - [TEST_CASE][PASSED] - Test Cases/ReportBuilder_Pages/CreatedReports/setEndDate - Copy: Test Cases/ReportBuilder_Pages/CreatedReports/setEndDate - Copy
+
+2020-03-17 14:47:33 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("ReportBuilderUI/EndDatePicker"), 5): Object 'Object Repository/ReportBuilderUI/EndDatePicker' is clickable
+
+2020-03-17 14:47:34 - [MESSAGE][PASSED] - Object 'Object Repository/ReportBuilderUI/EndDatePicker' is clickable
+
+2020-03-17 14:47:34 - [TEST_STEP][PASSED] - click(findTestObject("ReportBuilderUI/EndDatePicker")): Object: 'Object Repository/ReportBuilderUI/EndDatePicker' is clicked on
+
+2020-03-17 14:47:34 - [MESSAGE][PASSED] - Object: 'Object Repository/ReportBuilderUI/EndDatePicker' is clicked on
+
+2020-03-17 14:47:34 - [TEST_STEP][PASSED] - while (!(getText(findTestObject("Object Repository/ReportBuilderUI/EndMonthValue")).equalsIgnoreCase(EndMonthYear))): null
+
+2020-03-17 14:47:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/ReportBuilderUI/EndMonthValue' is: 'Mar, 2020'
+
+2020-03-17 14:47:35 - [TEST_STEP][PASSED] - click(findTestObject("ReportBuilderUI/cld_backButttonEndMonth")): Text of object 'Object Repository/ReportBuilderUI/EndMonthValue' is: 'Feb, 2020'
+
+2020-03-17 14:47:35 - [MESSAGE][PASSED] - Object: 'Object Repository/ReportBuilderUI/cld_backButttonEndMonth' is clicked on
+
+2020-03-17 14:47:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/ReportBuilderUI/EndMonthValue' is: 'Feb, 2020'
+
+2020-03-17 14:47:36 - [TEST_STEP][PASSED] - click(findTestObject("ReportBuilderUI/cld_backButttonEndMonth")): Text of object 'Object Repository/ReportBuilderUI/EndMonthValue' is: 'Jan, 2020'
+
+2020-03-17 14:47:36 - [MESSAGE][PASSED] - Object: 'Object Repository/ReportBuilderUI/cld_backButttonEndMonth' is clicked on
+
+2020-03-17 14:47:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/ReportBuilderUI/EndMonthValue' is: 'Jan, 2020'
+
+2020-03-17 14:47:37 - [TEST_STEP][PASSED] - click(findTestObject("ReportBuilderUI/cld_backButttonEndMonth")): Text of object 'Object Repository/ReportBuilderUI/EndMonthValue' is: 'Dec, 2019'
+
+2020-03-17 14:47:37 - [MESSAGE][PASSED] - Object: 'Object Repository/ReportBuilderUI/cld_backButttonEndMonth' is clicked on
+
+2020-03-17 14:47:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/ReportBuilderUI/EndMonthValue' is: 'Dec, 2019'
+
+2020-03-17 14:47:37 - [TEST_STEP][PASSED] - click(findTestObject("ReportBuilderUI/cld_backButttonEndMonth")): Text of object 'Object Repository/ReportBuilderUI/EndMonthValue' is: 'Nov, 2019'
+
+2020-03-17 14:47:38 - [MESSAGE][PASSED] - Object: 'Object Repository/ReportBuilderUI/cld_backButttonEndMonth' is clicked on
+
+2020-03-17 14:47:38 - [MESSAGE][PASSED] - Text of object 'Object Repository/ReportBuilderUI/EndMonthValue' is: 'Nov, 2019'
+
+2020-03-17 14:47:38 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-03-17 14:47:38 - [TEST_STEP][PASSED] - picker = driver.findElement(By.xpath("(//div[@class='dp-calendar-wrapper'])[2]")): null
+
+2020-03-17 14:47:39 - [TEST_STEP][PASSED] - Days = picker.findElements(By.tagName("div")): null
+
+2020-03-17 14:47:39 - [TEST_STEP][PASSED] - totalelementsfind = Days.size(): null
+
+2020-03-17 14:47:39 - [TEST_STEP][PASSED] - flag = 0: null
+
+2020-03-17 14:47:39 - [TEST_STEP][PASSED] - for ([i = 1, i < totalelementsfind, (i++)]): null
+
+2020-03-17 14:47:39 - [TEST_STEP][PASSED] - Days1 = get(i).findElements(By.xpath("//button[@class='dp-calendar-day dp-current-month']")): null
+
+2020-03-17 14:47:39 - [TEST_STEP][PASSED] - totalelementsfind1 = Days1.size(): null
+
+2020-03-17 14:47:39 - [TEST_STEP][PASSED] - for ([j = 0, j < totalelementsfind1, (j++)]): null
+
+2020-03-17 14:47:39 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:39 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(EndDate)): null
+
+2020-03-17 14:47:39 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:39 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(EndDate)): null
+
+2020-03-17 14:47:39 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:39 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(EndDate)): null
+
+2020-03-17 14:47:39 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:39 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(EndDate)): null
+
+2020-03-17 14:47:39 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:39 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(EndDate)): null
+
+2020-03-17 14:47:39 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:39 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(EndDate)): null
+
+2020-03-17 14:47:39 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:39 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(EndDate)): null
+
+2020-03-17 14:47:39 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:39 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(EndDate)): null
+
+2020-03-17 14:47:39 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:39 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(EndDate)): null
+
+2020-03-17 14:47:39 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:39 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(EndDate)): null
+
+2020-03-17 14:47:39 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:39 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(EndDate)): null
+
+2020-03-17 14:47:39 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:39 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(EndDate)): null
+
+2020-03-17 14:47:39 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:39 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(EndDate)): null
+
+2020-03-17 14:47:39 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:39 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(EndDate)): null
+
+2020-03-17 14:47:39 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:39 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(EndDate)): null
+
+2020-03-17 14:47:39 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(EndDate)): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(EndDate)): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(EndDate)): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(EndDate)): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(EndDate)): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(EndDate)): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(EndDate)): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(EndDate)): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(EndDate)): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(EndDate)): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(EndDate)): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(EndDate)): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(EndDate)): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(EndDate)): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(EndDate)): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(EndDate)): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(EndDate)): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(EndDate)): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(EndDate)): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(EndDate)): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(EndDate)): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(EndDate)): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(EndDate)): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(EndDate)): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(EndDate)): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(EndDate)): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(EndDate)): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(EndDate)): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(EndDate)): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(EndDate)): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(EndDate)): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(EndDate)): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(EndDate)): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(EndDate)): null
+
+2020-03-17 14:47:40 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:41 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(EndDate)): null
+
+2020-03-17 14:47:41 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:41 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(EndDate)): null
+
+2020-03-17 14:47:41 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:41 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(EndDate)): null
+
+2020-03-17 14:47:41 - [TEST_STEP][PASSED] - DayValue = get(j).getText(): null
+
+2020-03-17 14:47:41 - [TEST_STEP][PASSED] - if (DayValue.equalsIgnoreCase(EndDate)): null
+
+2020-03-17 14:47:41 - [TEST_STEP][PASSED] - get(j).click(): null
+
+2020-03-17 14:47:41 - [TEST_STEP][PASSED] - flag = 1: null
+
+2020-03-17 14:47:41 - [TEST_STEP][PASSED] - break: null
+
+2020-03-17 14:47:41 - [TEST_STEP][PASSED] - if (flag == 1): null
+
+2020-03-17 14:47:41 - [TEST_STEP][PASSED] - break: null
+
+2020-03-17 14:47:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ReportBuilder_Pages/CreatedReports/setEndDate - Copy' successfully
+
+2020-03-17 14:47:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("ReportBuilder_Pages/CreatedReports/Select stores"), ["StoreName":PCName], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/ReportBuilder_Pages/CreatedReports/Select stores' successfully
+
+2020-03-17 14:47:41 - [TEST_CASE][PASSED] - Test Cases/ReportBuilder_Pages/CreatedReports/Select stores: Test Cases/ReportBuilder_Pages/CreatedReports/Select stores
+
+2020-03-17 14:47:41 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-03-17 14:47:41 - [TEST_STEP][PASSED] - click(findTestObject("Created Reports Objects/drp_StoreSelector")): Object: 'Object Repository/Created Reports Objects/drp_StoreSelector' is clicked on
+
+2020-03-17 14:47:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Created Reports Objects/drp_StoreSelector' is clicked on
+
+2020-03-17 14:47:42 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Created Reports Objects/btn_checkAll"), 5): Object 'Object Repository/Created Reports Objects/btn_checkAll' is clickable
+
+2020-03-17 14:47:42 - [MESSAGE][PASSED] - Object 'Object Repository/Created Reports Objects/btn_checkAll' is clickable
+
+2020-03-17 14:47:42 - [TEST_STEP][PASSED] - click(findTestObject("Created Reports Objects/btn_checkAll")): Object: 'Object Repository/Created Reports Objects/btn_checkAll' is clicked on
+
+2020-03-17 14:47:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Created Reports Objects/btn_checkAll' is clicked on
+
+2020-03-17 14:47:43 - [TEST_STEP][PASSED] - click(findTestObject("Created Reports Objects/link_uncheckAll")): Object: 'Object Repository/Created Reports Objects/link_uncheckAll' is clicked on
+
+2020-03-17 14:47:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Created Reports Objects/link_uncheckAll' is clicked on
+
+2020-03-17 14:47:43 - [TEST_STEP][PASSED] - click(findTestObject("Created Reports Objects/input_SearchStores")): Object: 'Object Repository/Created Reports Objects/input_SearchStores' is clicked on
+
+2020-03-17 14:47:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Created Reports Objects/input_SearchStores' is clicked on
+
+2020-03-17 14:47:44 - [TEST_STEP][PASSED] - setText(findTestObject("Created Reports Objects/input_SearchStores"), StoreName): Text 'Union Ave' is set on object 'Object Repository/Created Reports Objects/input_SearchStores'
+
+2020-03-17 14:47:45 - [MESSAGE][PASSED] - Text 'Union Ave' is set on object 'Object Repository/Created Reports Objects/input_SearchStores'
+
+2020-03-17 14:47:45 - [TEST_STEP][PASSED] - PCName = StoreName: null
+
+2020-03-17 14:47:45 - [TEST_STEP][PASSED] - StoreInList = driver.findElement(By.xpath("(//span[contains(text(),'" + PCName + "')])[1]")): null
+
+2020-03-17 14:47:45 - [TEST_STEP][PASSED] - StoreInList.click(): null
+
+2020-03-17 14:47:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ReportBuilder_Pages/CreatedReports/Select stores' successfully
+
+2020-03-17 14:47:46 - [TEST_STEP][PASSED] - callTestCase(findTestCase("ReportBuilder_Pages/CreatedReports/HitRefresh"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/ReportBuilder_Pages/CreatedReports/HitRefresh' successfully
+
+2020-03-17 14:47:46 - [TEST_CASE][PASSED] - Test Cases/ReportBuilder_Pages/CreatedReports/HitRefresh: Test Cases/ReportBuilder_Pages/CreatedReports/HitRefresh
+
+2020-03-17 14:47:46 - [TEST_STEP][PASSED] - click(findTestObject("ReportBuilderUI/btn_Refresh")): Object: 'Object Repository/ReportBuilderUI/btn_Refresh' is clicked on
+
+2020-03-17 14:47:46 - [MESSAGE][PASSED] - Object: 'Object Repository/ReportBuilderUI/btn_Refresh' is clicked on
+
+2020-03-17 14:47:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ReportBuilder_Pages/CreatedReports/HitRefresh' successfully
+
+2020-03-17 14:47:46 - [TEST_STEP][PASSED] - assert true: null
+
+2020-03-17 14:47:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ReportBuilder_Pages/CreatedReports/Verify Date Picker is displayed as defined Data Grain - Copy' successfully
+
+2020-03-17 14:47:46 - [TEST_STEP][PASSED] - NoOfDaysFromReports = []: null
+
+2020-03-17 14:47:46 - [TEST_STEP][FAILED] - NoOfDaysFromReports = callTestCase(findTestCase("ReportBuilder_Pages/CreatedReports/Verify Dates on report based on selected present data by"), [:], CONTINUE_ON_FAILURE): Unable to call Test Case 'Test Cases/ReportBuilder_Pages/CreatedReports/Verify Dates on report based on selected present data by' (Root cause: com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/ReportBuilder_Pages/CreatedReports/Verify Dates on report based on selected present data by' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC8_Create Daily Report with valid details and compare report values with calender for specific time period.run(TC8_Create Daily Report with valid details and compare report values with calender for specific time period:75)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584436600739.run(TempTestSuite1584436600739.groovy:36)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 1
+	at Verify Dates on report based on selected present data by.run(Verify Dates on report based on selected present data by:82)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+)
+
+2020-03-17 14:47:46 - [TEST_CASE][ERROR] - Test Cases/ReportBuilder_Pages/CreatedReports/Verify Dates on report based on selected present data by: Test Cases/ReportBuilder_Pages/CreatedReports/Verify Dates on report based on selected present data by FAILED.
+Reason:
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at Verify Dates on report based on selected present data by.run(Verify Dates on report based on selected present data by:82)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC8_Create Daily Report with valid details and compare report values with calender for specific time period.run(TC8_Create Daily Report with valid details and compare report values with calender for specific time period:75)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584436600739.run(TempTestSuite1584436600739.groovy:36)
+
+
+2020-03-17 14:47:47 - [TEST_STEP][PASSED] - TotalDays = []: null
+
+2020-03-17 14:47:47 - [TEST_STEP][PASSED] - OnlyDays = []: null
+
+2020-03-17 14:47:47 - [TEST_STEP][PASSED] - DayWiseDate = []: null
+
+2020-03-17 14:47:47 - [TEST_STEP][PASSED] - NoWeeks = []: null
+
+2020-03-17 14:47:47 - [TEST_STEP][PASSED] - presentBy = PresentBy: null
+
+2020-03-17 14:47:47 - [TEST_STEP][PASSED] - if (presentBy.equalsIgnoreCase("Day")): null
+
+2020-03-17 14:47:47 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-03-17 14:47:47 - [TEST_STEP][PASSED] - HeaderRow = driver.findElement(By.xpath("(//thead[@class="ui-table-thead"])[2]")): null
+
+2020-03-17 14:47:59 - [TEST_STEP][PASSED] - Headers = HeaderRow.findElements(By.tagName("tr")): null
+
+2020-03-17 14:48:00 - [TEST_STEP][PASSED] - Days = get(0).findElements(By.tagName("th")): null
+
+2020-03-17 14:48:00 - [TEST_STEP][PASSED] - NoOfdaysSelected = Days.size(): null
+
+2020-03-17 14:48:00 - [TEST_STEP][PASSED] - println("****NoOfdaysSelected****" + NoOfdaysSelected): null
+
+2020-03-17 14:48:00 - [TEST_STEP][PASSED] - for ([i = 0, i < NoOfdaysSelected, (i++)]): null
+
+2020-03-17 14:48:00 - [TEST_STEP][PASSED] - je = driver: null
+
+2020-03-17 14:48:00 - [TEST_STEP][PASSED] - DateElement = Days.get(i): null
+
+2020-03-17 14:48:00 - [TEST_STEP][PASSED] - je.executeScript("arguments[0].scrollIntoView()", DateElement): null
+
+2020-03-17 14:48:00 - [TEST_STEP][PASSED] - FirstDate = replaceAll("", " ").replaceAll("
+", " "): null
+
+2020-03-17 14:48:00 - [TEST_STEP][PASSED] - println("FirstDate" + FirstDate): null
+
+2020-03-17 14:48:00 - [TEST_STEP][PASSED] - TotalDays.add(FirstDate): null
+
+2020-03-17 14:48:00 - [TEST_STEP][PASSED] - dateToBeSplited = TotalDays[i]: null
+
+2020-03-17 14:48:00 - [TEST_STEP][PASSED] - OnlyDays = dateToBeSplited.split("/"): null
+
+2020-03-17 14:48:00 - [TEST_STEP][PASSED] - FinalDay = replaceAll("", " ").replaceAll("
+", " "): null
+
+2020-03-17 14:48:00 - [MESSAGE][FAILED] - Unable to call Test Case 'Test Cases/ReportBuilder_Pages/CreatedReports/Verify Dates on report based on selected present data by' (Root cause: com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/ReportBuilder_Pages/CreatedReports/Verify Dates on report based on selected present data by' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC8_Create Daily Report with valid details and compare report values with calender for specific time period.run(TC8_Create Daily Report with valid details and compare report values with calender for specific time period:75)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584436600739.run(TempTestSuite1584436600739.groovy:36)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 1
+	at Verify Dates on report based on selected present data by.run(Verify Dates on report based on selected present data by:82)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+)
+
+2020-03-17 14:48:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("ReportBuilder_Pages/CreatedReports/Verify all added columns in report is same as added during set up"), ["AddedColumnsSize":TotalNoOfColumnsAdded, "SetUpList":ColumnListNew], CONTINUE_ON_FAILURE): null
+
+2020-03-17 14:48:00 - [TEST_STEP][PASSED] - Start listener action : afterTestcase: null]]></system-out>
+         <system-err><![CDATA[2020-03-17 14:47:03 - [TEST_CASE][FAILED] - Test Cases/CrossLocationReportBuilder_TestCases/TC8_Create Daily Report with valid details and compare report values with calender for specific time period: Test Cases/CrossLocationReportBuilder_TestCases/TC8_Create Daily Report with valid details and compare report values with calender for specific time period FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to call Test Case 'Test Cases/ReportBuilder_Pages/CreatedReports/Verify Dates on report based on selected present data by' (Root cause: com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/ReportBuilder_Pages/CreatedReports/Verify Dates on report based on selected present data by' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC8_Create Daily Report with valid details and compare report values with calender for specific time period.run(TC8_Create Daily Report with valid details and compare report values with calender for specific time period:75)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584436600739.run(TempTestSuite1584436600739.groovy:36)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 1
+	at Verify Dates on report based on selected present data by.run(Verify Dates on report based on selected present data by:82)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:70)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC8_Create Daily Report with valid details and compare report values with calender for specific time period.run(TC8_Create Daily Report with valid details and compare report values with calender for specific time period:75)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584436600739.run(TempTestSuite1584436600739.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/ReportBuilder_Pages/CreatedReports/Verify Dates on report based on selected present data by' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	... 18 more
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 1
+	at Verify Dates on report based on selected present data by.run(Verify Dates on report based on selected present data by:82)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-03-17 14:46:45 - [TEST_SUITE][FAILED] - Daily Report End to End Suit: Test Cases/CrossLocationReportBuilder_TestCases/TC8_Create Daily Report with valid details and compare report values with calender for specific time period FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to call Test Case 'Test Cases/ReportBuilder_Pages/CreatedReports/Verify Dates on report based on selected present data by' (Root cause: com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/ReportBuilder_Pages/CreatedReports/Verify Dates on report based on selected present data by' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC8_Create Daily Report with valid details and compare report values with calender for specific time period.run(TC8_Create Daily Report with valid details and compare report values with calender for specific time period:75)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584436600739.run(TempTestSuite1584436600739.groovy:36)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 1
+	at Verify Dates on report based on selected present data by.run(Verify Dates on report based on selected present data by:82)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:70)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC8_Create Daily Report with valid details and compare report values with calender for specific time period.run(TC8_Create Daily Report with valid details and compare report values with calender for specific time period:75)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584436600739.run(TempTestSuite1584436600739.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/ReportBuilder_Pages/CreatedReports/Verify Dates on report based on selected present data by' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	... 18 more
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 1
+	at Verify Dates on report based on selected present data by.run(Verify Dates on report based on selected present data by:82)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[2020-03-17 14:46:45 - [TEST_SUITE][FAILED] - Daily Report End to End Suit: Test Cases/CrossLocationReportBuilder_TestCases/TC8_Create Daily Report with valid details and compare report values with calender for specific time period FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to call Test Case 'Test Cases/ReportBuilder_Pages/CreatedReports/Verify Dates on report based on selected present data by' (Root cause: com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/ReportBuilder_Pages/CreatedReports/Verify Dates on report based on selected present data by' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC8_Create Daily Report with valid details and compare report values with calender for specific time period.run(TC8_Create Daily Report with valid details and compare report values with calender for specific time period:75)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584436600739.run(TempTestSuite1584436600739.groovy:36)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 1
+	at Verify Dates on report based on selected present data by.run(Verify Dates on report based on selected present data by:82)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:70)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC8_Create Daily Report with valid details and compare report values with calender for specific time period.run(TC8_Create Daily Report with valid details and compare report values with calender for specific time period:75)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584436600739.run(TempTestSuite1584436600739.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/ReportBuilder_Pages/CreatedReports/Verify Dates on report based on selected present data by' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	... 18 more
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 1
+	at Verify Dates on report based on selected present data by.run(Verify Dates on report based on selected present data by:82)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

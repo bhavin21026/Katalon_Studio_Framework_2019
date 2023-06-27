@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC52_Verify all categories belongs to Net Sales Group under Create Column section for Weekly Data Grain</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c96d9cb7-d5dc-4dc7-b176-e0f3798e0b8e</testCaseGuid>
+</TestCaseEntity>

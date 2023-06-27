@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Give Report Category Name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>47b45c6d-35c1-479d-9440-d925957a8d40</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d03311ce-1d9b-42ca-ac12-a2cf48e50a7e</id>
+      <masked>false</masked>
+      <name>CategoryName</name>
+   </variable>
+</TestCaseEntity>

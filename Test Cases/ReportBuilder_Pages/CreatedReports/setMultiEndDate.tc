@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>setMultiEndDate</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4d77eb59-f9f6-4535-97cb-15e8f6092a83</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>47b4f1a7-1bb8-47a7-9b82-fa3ef3f73fb2</id>
+      <masked>false</masked>
+      <name>EndMonthYear</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8207a03f-6646-4f5e-ae07-c2cff5498655</id>
+      <masked>false</masked>
+      <name>EndDate</name>
+   </variable>
+</TestCaseEntity>

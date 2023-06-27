@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Weekly Report End to End Suit,Chrome 80.0.3987.149,,,2020-03-29 00:33:57,2020-03-29 00:43:33,9m - 35.590s,FAILED
+,,,,,,,
+Test Cases/CrossLocationReportBuilder_TestCases/TC79_Create Weekly Report with valid details and compare report values with calender for specific time period,Chrome 80.0.3987.149,,,2020-03-29 00:34:14,2020-03-29 00:43:33,9m - 18.530s,FAILED
+"callTestCase(findTestCase(""CrossLocationReportBuilder_TestCases/TC1_Verify successfull login""), [:], CONTINUE_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-03-29 00:34:15,2020-03-29 00:34:19,4.038s,PASSED
+"callTestCase(findTestCase(""CrossLocationReportBuilder_TestCases/TC3_Verify Report Builder Link functionality""), [:], CONTINUE_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-03-29 00:34:19,2020-03-29 00:34:59,40.501s,PASSED
+"callTestCase(findTestCase(""ReportBuilder_Pages/ReportSetup_Page/Verify Add Report button and Click""), [:], CONTINUE_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-03-29 00:34:59,2020-03-29 00:35:01,1.535s,PASSED
+"callTestCase(findTestCase(""ReportBuilder_Pages/CrossLocationReportBuilderSetup_Page/Give Report Name""), [""ReportName"":ReportName], CONTINUE_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-03-29 00:35:01,2020-03-29 00:35:02,0.813s,PASSED
+"callTestCase(findTestCase(""ReportBuilder_Pages/CrossLocationReportBuilderSetup_Page/Select Report Category""), [""ReportCategory"":CategoryName], CONTINUE_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-03-29 00:35:02,2020-03-29 00:35:04,2.337s,PASSED
+"callTestCase(findTestCase(""ReportBuilder_Pages/CrossLocationReportBuilderSetup_Page/Data Grain with Present Data By/Select Data Grain And Present Data By options for Report""), [:], CONTINUE_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-03-29 00:35:04,2020-03-29 00:35:36,32.323s,PASSED
+ColumnListNew = [],Chrome 80.0.3987.149,,,2020-03-29 00:35:36,2020-03-29 00:35:36,0.000s,PASSED
+ColumnListNew = reportbuildercustom.RB_Keywords.verifyTotalAddedColumns(),Chrome 80.0.3987.149,,,2020-03-29 00:35:36,2020-03-29 00:35:38,2.073s,PASSED
+TotalNoOfColumnsAdded = ColumnListNew.size(),Chrome 80.0.3987.149,,,2020-03-29 00:35:38,2020-03-29 00:35:38,0.000s,PASSED
+println(TotalNoOfColumnsAdded),Chrome 80.0.3987.149,,,2020-03-29 00:35:38,2020-03-29 00:35:38,0.004s,PASSED
+"callTestCase(findTestCase(""ReportBuilder_Pages/CrossLocationReportBuilderSetup_Page/Select Grouping By Hierarchy""), [:], CONTINUE_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-03-29 00:35:38,2020-03-29 00:35:41,2.606s,PASSED
+"callTestCase(findTestCase(""ReportBuilder_Pages/CrossLocationReportBuilderSetup_Page/Click on Create Report Button""), [:], CONTINUE_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-03-29 00:35:41,2020-03-29 00:35:42,0.539s,PASSED
+"callTestCase(findTestCase(""ReportBuilder_Pages/CrossLocationReportBuilderSetup_Page/Search and validate created report from list of reports""), [""SearchCategory"":CategoryName, ""SearchReport"":ReportName], CONTINUE_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-03-29 00:35:42,2020-03-29 00:35:51,8.969s,PASSED
+"callTestCase(findTestCase(""ReportBuilder_Pages/Restaurant_Intranet_Dashboard_Page/Click on Dashboard Link""), [:], CONTINUE_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-03-29 00:35:51,2020-03-29 00:35:58,7.758s,PASSED
+"callTestCase(findTestCase(""ReportBuilder_Pages/Restaurant_Intranet_Dashboard_Page/Select PC name""), [""PCName"":PCName], CONTINUE_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-03-29 00:35:58,2020-03-29 00:36:04,6.155s,PASSED
+"callTestCase(findTestCase(""ReportBuilder_Pages/Restaurant_Intranet_Dashboard_Page/Click on dashbord calender button and select operational calender""), [:], CONTINUE_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-03-29 00:36:04,2020-03-29 00:36:16,11.724s,PASSED
+valuesFromCalendarDashboard = [:],Chrome 80.0.3987.149,,,2020-03-29 00:36:16,2020-03-29 00:36:16,0.001s,PASSED
+"valuesFromCalendarDashboard = callTestCase(findTestCase(""ReportBuilder_Pages/Restaurant_Intranet_Dashboard_Page/Get all available variable values from calender view for all weeks of one month""), [:], CONTINUE_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-03-29 00:36:16,2020-03-29 00:36:30,13.945s,PASSED
+"callTestCase(findTestCase(""CrossLocationReportBuilder_TestCases/TC77_Verify Created Report is displaying same as per the set configuration in report setup""), [""ReportName"":ReportName], CONTINUE_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-03-29 00:36:30,2020-03-29 00:36:46,16.215s,PASSED
+"callTestCase(findTestCase(""ReportBuilder_Pages/CreatedReports/Verify Date Picker is displayed as defined Data Grain""), [:], CONTINUE_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-03-29 00:36:46,2020-03-29 00:37:05,18.233s,PASSED
+NoOfDaysFromReports = [],Chrome 80.0.3987.149,,,2020-03-29 00:37:05,2020-03-29 00:37:05,0.000s,PASSED
+"NoOfDaysFromReports = callTestCase(findTestCase(""ReportBuilder_Pages/CreatedReports/Verify Dates on report based on selected present data by""), [:], CONTINUE_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-03-29 00:37:05,2020-03-29 00:37:05,0.816s,PASSED
+"callTestCase(findTestCase(""ReportBuilder_Pages/CreatedReports/Verify all added columns in report is same as added during set up""), [""AddedColumnsSize"":TotalNoOfColumnsAdded, ""SetUpList"":ColumnListNew], CONTINUE_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-03-29 00:37:05,2020-03-29 00:37:11,5.919s,PASSED
+"callTestCase(findTestCase(""ReportBuilder_Pages/Restaurant_Intranet_Dashboard_Page/Fetch variable values from created report and do comapre with calendar values for each week""), [""SetUpListToGetData"":valuesFromCalendarDashboard, ""DayWiseDates"":NoOfDaysFromReports, ""NoOfAddedColumns"":TotalNoOfColumnsAdded], CONTINUE_ON_FAILURE)",Chrome 80.0.3987.149,,,2020-03-29 00:37:11,2020-03-29 00:43:33,6m - 21.716s,FAILED
+Start listener action : afterTestcase,Chrome 80.0.3987.149,,,2020-03-29 00:43:33,2020-03-29 00:43:33,0.001s,PASSED

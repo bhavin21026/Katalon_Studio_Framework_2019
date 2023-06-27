@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC64_Verify update column name functionality with Within-Outside of Range Rule selection</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8117c290-fc8b-4a19-b109-415fda3267f5</testCaseGuid>
+   <variable>
+      <defaultValue>'Net Sales vs LY $ updated again'</defaultValue>
+      <description></description>
+      <id>a7ff82bf-247d-401f-9243-d46813533432</id>
+      <masked>false</masked>
+      <name>updatedColumnName</name>
+   </variable>
+   <variable>
+      <defaultValue>'0'</defaultValue>
+      <description></description>
+      <id>457a2a87-5a18-4c17-a719-a44f8e277bff</id>
+      <masked>false</masked>
+      <name>FromRange</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>860db1ce-dcd9-495c-ad8a-7c645a3430ab</id>
+      <masked>false</masked>
+      <name>WithinRange</name>
+   </variable>
+   <variable>
+      <defaultValue>'5'</defaultValue>
+      <description></description>
+      <id>80b6e48a-6392-43da-bac4-2fbd39be11a5</id>
+      <masked>false</masked>
+      <name>OutsideRange</name>
+   </variable>
+</TestCaseEntity>

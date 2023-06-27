@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC17_Verify Create Report functionality without adding any column</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>37ad6b31-1046-4639-9fe6-b111e070c1d2</testCaseGuid>
+   <variable>
+      <defaultValue>'12'</defaultValue>
+      <description></description>
+      <id>10bb44be-d871-4cae-a91d-226d65bd8787</id>
+      <masked>false</masked>
+      <name>NoOfMonths</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC41_Verify User Interface of Edit column section with Within-Outside of Range formatting rule selected</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8e1d52e8-7a44-4a41-b4c9-a0023c98439e</testCaseGuid>
+</TestCaseEntity>

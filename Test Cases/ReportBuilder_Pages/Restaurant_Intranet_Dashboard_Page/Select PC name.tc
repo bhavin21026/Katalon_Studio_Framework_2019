@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Select PC name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>35309b66-3c5e-4aa7-ae19-83191d8bbd1f</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>382d5c87-9a20-4914-a725-97cf749e41c9</id>
+      <masked>false</masked>
+      <name>PCName</name>
+   </variable>
+</TestCaseEntity>
